@@ -230,4 +230,15 @@ public class MainController {
         
         return "/main/search";
     }
+    
+    /** 
+     * 메인화면 공지사항 Popup
+     * @param model
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping(value = "/main/noticePop.do")
+    public String noticePop(ModelMap model) throws Exception {
+        return "main/noticePop";
+    }
 }

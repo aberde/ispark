@@ -10,16 +10,17 @@
 			
 			<div id="foo_widget4">
 				<div class="foo_widget4_left1">
-					<img src="<c:url value="/images/main/logo.gif" />" alt="Logo 녹색성장위원회" />
+					<img src="<c:url value="/images/main/logo.gif" />" alt="녹색성장 더 큰 대한민국" />
 				</div>
 				<div class="foo_widget1_left">
-					<a href="<c:url value="/menu999/sub001/GRG_999_101.do" />"><img src="<c:url value="/images/main/f21.gif" />" alt="개인정보보호정책" /></a>
+					<a href="<c:url value="/menu999/sub001/GRG_999_101.do" />"><img src="<c:url value="/images/main/f21.gif" />" alt="홈페이지이용안내" /></a>
 					<a href="<c:url value="/menu999/sub002/GRG_999_201.do" />"><img src="<c:url value="/images/main/f1.gif" />" alt="저작권정책" /></a>
 					<a href="<c:url value="/menu999/sub003/GRG_999_301.do" />"><img src="<c:url value="/images/main/f4.gif" />" alt="사이트맵" /></a>
 					<a href="<c:url value="/menu999/sub004/GRG_999_401.do" />"><img src="<c:url value="/images/main/f5.gif" />" alt="찾아오시는 길" /></a>
 				</div>
 				<div class="foo_widget1_right">
-					<select name="menuitem" onchange="window.open(this.options[this.selectedIndex].value, 'new')">
+					<label for="menuitem" class="screen_out">관련사이트</label>
+					<select id="menuitem" name="menuitem">
 						<option value="">관련사이트</option>
 						<option value="http://www.gggi.org">GGGI</option>
 						<option value="http://gcfund.net">GCF</option>
@@ -48,11 +49,13 @@
 						<option value="http://www.pewclimate.org">퓨센터 글로벌 기후변화</option>
 						<option value="http://www.ourplanet.com">Our Planet</option>
 					</select>
+					
+					<a href="javascript:fnSitePop();" class="go" title="관련사이트 새창열림"><img src="<c:url value="/images/main/go.png" />" alt="go" /></a>
 				</div>
 	
 				<div class="foo_widget4_left2">
 					<img src="<c:url value="/images/main/copyright_btm.gif" />" 
-						alt="30107 세종특별자치시 다솜로 261 어진동, 국무총리실 세종청사 231호 COPYRIGHT(C) 2009 BY PRESIDENTIAL COMMITTEE ON GREEN GROWTH. ALL RIGHTS RESERVED" />
+						alt="(30107)세종특별자치시 다솜로 261 어진동, 국무총리실 세종청사 231호 Tel.044-200-2886 COPYRIGHT(C) 2009 BY PRESIDENTIAL COMMITTEE ON GREEN GROWTH. ALL RIGHTS RESERVED" />
 				</div>
 	
 			</div>
@@ -64,6 +67,17 @@
 	<div id="footer_data">
 		<div class="clear"></div>
 	</div>
+	
+	<script type="text/javascript">
+		/**
+		 * 관련사이트 팝업
+		 */
+		function fnSitePop() {
+			if ( $('#menuitem').val() ) {
+				window.open($('#menuitem').val(), 'new');
+			}
+		}
+	</script>
 	
 </body>	
 </html>

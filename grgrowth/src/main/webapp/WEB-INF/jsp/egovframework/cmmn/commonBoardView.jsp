@@ -1,6 +1,7 @@
 <%@ page language="java" pageEncoding="utf-8" contentType="text/html; charset=utf-8" session="false"%>
 
 <%@ include file="/WEB-INF/jsp/egovframework/include/header.jsp" %>
+<%@ include file="/WEB-INF/jsp/egovframework/include/sidebar.jsp" %>
 
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -76,6 +77,7 @@
 
 			<div class="metafile" style="text-align:right; position:relative;">
 				<c:if test="${ fn:length(commonBoardVO.fileInfoList) > 0 }">
+					<span style="font-weight:bold;"><a href="javascript:fileopen();">첨부파일 (<c:out value="${ fn:length(commonBoardVO.fileInfoList) }" />) <img src="<c:url value="/images/btn_download.gif" />" border="0" alt="첨부파일 다운로드" align="absmiddle"></a></span>
 					<div id="attachfile" style="display:none; text-align:left; position:absolute; top:10px; right:5px; border:1px solid #d9d9d9; padding:5px 10px; background:#fff;">
 						<div style="float:left; line-heigt:100%;">
 							
@@ -88,7 +90,6 @@
 							<a href="javascript:fileclose();" title="닫기"><span style="color:#666; font-weight:bold; font-size:12px;">×</span></a>
 						</div>
 					</div>
-					<span style="font-weight:bold;"><a href="javascript:fileopen();">첨부파일 (<c:out value="${ fn:length(commonBoardVO.fileInfoList) }" />) <img src="<c:url value="/images/btn_download.gif" />" border="0" alt="첨부파일 다운로드" align="absmiddle"></a></span>
 				</c:if>
 			</div>
 			
@@ -121,7 +122,7 @@
 	
 </div>
 
-<%@ include file="/WEB-INF/jsp/egovframework/include/sidebar.jsp" %>
+
 
 <div class="clear"></div>
 

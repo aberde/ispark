@@ -38,6 +38,7 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 
 import egovframework.grgrowth.common.GrgrowthConstants;
+import egovframework.grgrowth.common.SearchVO;
 import egovframework.grgrowth.common.service.CommonBoardVO;
 import egovframework.grgrowth.common.service.CommonService;
 import egovframework.grgrowth.main.service.MainService;
@@ -238,7 +239,7 @@ public class MainController {
      * @throws Exception
      */
     @RequestMapping(value = "/main/noticePop.do")
-    public String noticePop(ModelMap model) throws Exception {
+    public String noticePop(@ModelAttribute("vo") SearchVO vo, ModelMap model) throws Exception {
         return "main/noticePop";
     }
 }

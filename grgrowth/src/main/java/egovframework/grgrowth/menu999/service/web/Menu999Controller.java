@@ -19,8 +19,10 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import egovframework.grgrowth.common.SearchVO;
 import egovframework.grgrowth.menu999.service.Menu999Service;
 import egovframework.rte.fdl.property.EgovPropertyService;
 
@@ -43,7 +45,7 @@ public class Menu999Controller {
 	 * @throws Exception
 	 */
 	@RequestMapping(value = "/menu999/sub001/GRG_999_101.do")
-	public String GRG_999_101(ModelMap model) throws Exception {
+	public String GRG_999_101(@ModelAttribute("vo") SearchVO vo, ModelMap model) throws Exception {
 		return "menu999/sub001/GRG_999_101";
 	}
 
@@ -54,7 +56,7 @@ public class Menu999Controller {
 	 * @throws Exception
 	 */
 	@RequestMapping(value = "/menu999/sub002/GRG_999_201.do")
-	public String GRG_999_201(ModelMap model) throws Exception {
+	public String GRG_999_201(@ModelAttribute("vo") SearchVO vo, ModelMap model) throws Exception {
 	    return "menu999/sub002/GRG_999_201";
 	}
 	
@@ -65,7 +67,7 @@ public class Menu999Controller {
 	 * @throws Exception
 	 */
 	@RequestMapping(value = "/menu999/sub003/GRG_999_301.do")
-	public String GRG_999_301(ModelMap model) throws Exception {
+	public String GRG_999_301(@ModelAttribute("vo") SearchVO vo, ModelMap model) throws Exception {
 	    return "menu999/sub003/GRG_999_301";
 	}
 	
@@ -76,7 +78,7 @@ public class Menu999Controller {
 	 * @throws Exception
 	 */
 	@RequestMapping(value = "/menu999/sub004/GRG_999_401.do")
-	public String GRG_999_401(ModelMap model) throws Exception {
+	public String GRG_999_401(@ModelAttribute("vo") SearchVO vo, ModelMap model) throws Exception {
 	    return "menu999/sub004/GRG_999_401";
 	}
 }

@@ -19,8 +19,10 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import egovframework.grgrowth.common.SearchVO;
 import egovframework.grgrowth.menu004.service.Menu004Service;
 import egovframework.rte.fdl.property.EgovPropertyService;
 
@@ -43,7 +45,7 @@ public class Menu004Controller {
 	 * @throws Exception
 	 */
 	@RequestMapping(value = "/menu004/sub001/GRG_004_101.do")
-	public String GRG_004_101(ModelMap model) throws Exception {
+	public String GRG_004_101(@ModelAttribute("vo") SearchVO vo, ModelMap model) throws Exception {
 		return "menu004/sub001/GRG_004_101";
 	}
 
@@ -54,7 +56,7 @@ public class Menu004Controller {
 	 * @throws Exception
 	 */
 	@RequestMapping(value = "/menu004/sub002/GRG_004_201.do")
-	public String GRG_004_201(ModelMap model) throws Exception {
+	public String GRG_004_201(@ModelAttribute("vo") SearchVO vo, ModelMap model) throws Exception {
 	    return "menu004/sub002/GRG_004_201";
 	}
 	
@@ -65,7 +67,7 @@ public class Menu004Controller {
 	 * @throws Exception
 	 */
 	@RequestMapping(value = "/menu004/sub002/GRG_004_202.do")
-	public String GRG_004_202(ModelMap model) throws Exception {
+	public String GRG_004_202(@ModelAttribute("vo") SearchVO vo, ModelMap model) throws Exception {
 	    return "menu004/sub002/GRG_004_202";
 	}
 	
@@ -76,7 +78,7 @@ public class Menu004Controller {
 	 * @throws Exception
 	 */
 	@RequestMapping(value = "/menu004/sub003/GRG_004_301.do")
-	public String GRG_004_301(ModelMap model) throws Exception {
+	public String GRG_004_301(@ModelAttribute("vo") SearchVO vo, ModelMap model) throws Exception {
 	    return "menu004/sub003/GRG_004_301";
 	}
 	
@@ -87,7 +89,7 @@ public class Menu004Controller {
 	 * @throws Exception
 	 */
 	@RequestMapping(value = "/menu004/sub004/GRG_004_401.do")
-	public String GRG_004_401(ModelMap model) throws Exception {
+	public String GRG_004_401(@ModelAttribute("vo") SearchVO vo, ModelMap model) throws Exception {
 	    return "menu004/sub004/GRG_004_401";
 	}
 	
@@ -98,7 +100,7 @@ public class Menu004Controller {
 	 * @throws Exception
 	 */
 	@RequestMapping(value = "/menu004/sub005/GRG_004_501.do")
-	public String GRG_004_501(ModelMap model) throws Exception {
+	public String GRG_004_501(@ModelAttribute("vo") SearchVO vo, ModelMap model) throws Exception {
 	    return "menu004/sub005/GRG_004_501";
 	}
 }

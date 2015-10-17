@@ -1,6 +1,9 @@
 <%@ page language="java" pageEncoding="utf-8" contentType="text/html; charset=utf-8" session="false"%>
 
 <%@ include file="/WEB-INF/jsp/egovframework/include/header.jsp" %>
+<%@ include file="/WEB-INF/jsp/egovframework/include/sidebar.jsp" %>
+
+
 
 <div id="container">
 
@@ -75,7 +78,7 @@
 					<div class="link_text"><strong><a title="홈페이지로 이동합니다" href="http://www.climate.go.kr" target="_blank">http://www.climate.go.kr</a></strong><br />
 					기후변화정보센터는 국내외 기후변화 정보사이트들에 대한 자료를 토대로 기후변화 과학 정보에 대한 이해를 돕고자 하는 취지로 구성 되어 있습니다.</div></li>
 				<li>
-					<div class="link_img"> <img title="the-green" alt="" src="<c:url value="/images/menu003/sub004/the-green1.jpg" />" width="177" height="52" /></div>
+					<div class="link_img"><img class="block" alt="The Green LH공사 녹색기술실험관" src="<c:url value="/images/menu003/sub004/the-green1.jpg" />" width="177" height="52" /></div>
 					<div class="link_text"><strong><a href="http://thegreen.lh.or.kr/">http://thegreen.lh.or.kr/</a></strong><br />
 					녹색성장정책과 보금자리주택에 대한 홍보와 친환경주택의 에너지 절감 및 신재생에너지 등 생활속의 녹색기술을 체험할 수 있으며, 단계별로 적용될 녹색기술성능을 모니터링하여 지속가능한 친환경주택 설계기준을 수립하기 위해 마련된 공간입니다.</div>
 				</li>
@@ -135,8 +138,6 @@
 	</div>
 	
 </div>
-
-<%@ include file="/WEB-INF/jsp/egovframework/include/sidebar.jsp" %>
 
 <div class="clear"></div>
 

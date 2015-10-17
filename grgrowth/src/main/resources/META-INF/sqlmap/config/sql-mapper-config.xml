@@ -4,8 +4,6 @@
 <configuration>
     
     <typeAliases>
-    	<typeAlias alias="empVO" type="egovframework.grgrowth.emp.service.EmpVO" />
-    	<typeAlias alias="deptVO" type="egovframework.grgrowth.dept.service.DeptVO" />
     	<typeAlias alias="searchVO" type="egovframework.grgrowth.common.SearchVO" />
     </typeAliases>
     

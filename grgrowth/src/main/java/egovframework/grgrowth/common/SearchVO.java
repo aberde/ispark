@@ -16,6 +16,7 @@
 package egovframework.grgrowth.common;
 
 import java.io.Serializable;
+import java.util.Map;
 /**
  * 검색조건, 키워드와 페이지정보를 갖고 있는 VO클래스
  * 
@@ -44,6 +45,7 @@ public class SearchVO implements Serializable {
 	private int recordCountPerPage = 10;
 	private String searchCondition = "";
 	private String searchKeyword = "";
+	private Map<String, String> page_title;
     
 	public int getPageIndex() {
 		return pageIndex;
@@ -109,7 +111,15 @@ public class SearchVO implements Serializable {
 		this.searchKeyword = searchKeyword;
 	}
 
-	@Override
+    public Map<String, String> getPage_title() {
+        return (page_title == null || page_title.isEmpty() ? GrgrowthConstants.PAGE_TITLE : page_title);
+    }
+
+    public void setPage_title(Map<String, String> page_title) {
+        this.page_title = page_title;
+    }
+
+    @Override
 	public String toString() {
 		return "SearchVO [pageIndex=" + pageIndex + ", searchCondition="
 				+ searchCondition + ", searchKeyword=" + searchKeyword

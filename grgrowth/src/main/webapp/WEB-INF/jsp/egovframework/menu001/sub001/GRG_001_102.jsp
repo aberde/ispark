@@ -1,6 +1,7 @@
 <%@ page language="java" pageEncoding="utf-8" contentType="text/html; charset=utf-8" session="false"%>
 
 <%@ include file="/WEB-INF/jsp/egovframework/include/header.jsp" %>
+<%@ include file="/WEB-INF/jsp/egovframework/include/sidebar.jsp" %>
 
 <div id="container">
 
@@ -8,7 +9,7 @@
 		<h1 class="entry_title">추진배경</h1>
 		<div>
 			<h1>
-				<img title="지구온난화" src="<c:url value="/images/menu001/sub001/background_ttl_01.jpg" />" alt="" width="78" height="17" />
+				<img alt="지구온난화" src="<c:url value="/images/menu001/sub001/background_ttl_01.jpg" />" alt="" width="78" height="17" />
 			</h1>
 			<ul>
 				<li>
@@ -42,10 +43,10 @@
 				</ul>
 			</ul>
 			<p>
-				<img class="ban" title="background_ban_01" src="<c:url value="/images/menu001/sub001/background_ban_01.jpg" />" alt="" width="599" height="220" />
+				<img class="ban" src="<c:url value="/images/menu001/sub001/background_ban_01.jpg" />" alt="전 세계 평균 온도 변화추이, 우리나라 연 기온변화(1910~2000)" width="599" height="220" />
 			</p>
 			<h1>
-				<img title="에너지 위기" src="<c:url value="/images/menu001/sub001/background_ttl_02.jpg" />" alt="" width="82" height="17" />
+				<img alt="에너지 위기" src="<c:url value="/images/menu001/sub001/background_ttl_02.jpg" />" width="82" height="17" />
 			</h1>
 			<ul>
 				<li>
@@ -81,10 +82,10 @@
 				</ul>
 			</ul>
 			<p>
-				<img class="ban" title="background_ban_02" src="<c:url value="/images/menu001/sub001/background_ban_02.jpg" />" alt="" width="599" height="220" />
+				<img class="ban" src="<c:url value="/images/menu001/sub001/background_ban_02.jpg" />" alt="국제 유가 변동 추이, 우리나라의 에너지 수요전망" width="599" height="220" />
 			</p>
 			<h1>
-				<img title="산성장동력 창출 필요성" src="<c:url value="/images/menu001/sub001/background_ttl_03.jpg" />" alt="" width="163" height="17" />
+				<img alt="신성장동력 창출 필요성" src="<c:url value="/images/menu001/sub001/background_ttl_03.jpg" />" width="163" height="17" />
 			</h1>
 			<ul>
 				<li>
@@ -109,10 +110,10 @@
 				</ul>
 			</ul>
 			<p>
-				<img class="ban" title="background_ban_03" src="<c:url value="/images/menu001/sub001/background_ban_03.jpg" />" alt="녹색성장을 위한 주요국 추진 전략" width="599" height="403" />
+				<img class="ban" src="<c:url value="/images/menu001/sub001/background_ban_03.jpg" />" alt="녹색성장을 위한 주요국 추진 전략" width="599" height="403" />
 			</p>
 			<h1>
-				<img title="새로운 패러다임으로 전환 필요성" src="<c:url value="/images/menu001/sub001/background_ttl_04.jpg" />" alt="" width="229" height="17" />
+				<img alt="새로운 패러다임으로 전환 필요성" src="<c:url value="/images/menu001/sub001/background_ttl_04.jpg" />" width="229" height="17" />
 			</h1>
 			<ul>
 				<li>
@@ -150,7 +151,7 @@
 
 </div>
 
-<%@ include file="/WEB-INF/jsp/egovframework/include/sidebar.jsp" %>
+
 
 <div class="clear"></div>
 

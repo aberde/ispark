@@ -122,14 +122,14 @@ a, a:hover {text-decoration:none;color:#05b99b;}
 	.nav_cats {position:absolute; left:180px; top:45px; width:760px; font-size:12px;list-style:none;}
 	.nav_cats li {float:left; margin-left:30px; width:128px;}
 	.nav_cats li a {color:#000;display:block;padding:0px 0px;height:44px;}
-	.nav_cats li a:hover, .nav_cats li.current_page_item a, .nav_cats li.current-cat a, .nav_cats li.current-menu-item a {color:#fff;}
+	.nav_cats li a:hover, .nav_cats li a:focus, .nav_cats li.current_page_item a, .nav_cats li.current-cat a, .nav_cats li.current-menu-item a {color:#fff;}
 	
 	/* submenu */
 	.nav_cats li ul {background-color:#09b89d;position:absolute;z-index:999;width:147px;padding:5px;}
 	.nav_cats li ul li {float:none;margin:0;}
 	.nav_cats li ul li a{color:#fff;width:127px; font-weight:bold; padding:3px 10px;margin:0;height:16px;margin-top:4px;}
 	.nav_cats li ul li a.sf-with-ul { /* Dropdown li class which has another sub ul under */padding:3px 10px;}
-	.nav_cats li ul li a:hover {color:#ffee34;}
+	.nav_cats li ul li a:hover, .nav_cats li ul li a:focus {color:#ffee34;}
 	.nav_cats li ul ul {background:#018a75; margin:-31px 0 0 148px;padding-top:0; width:180px;}
 	.nav_cats li ul ul li a {color:#fff; width:180px;padding:3px;margin:0;height:16px;margin-top:5px;}
 	/* List items that contains sub ul */
@@ -229,6 +229,7 @@ a, a:hover {text-decoration:none;color:#05b99b;}
 #home_container .home_right{float:right; width:312px;}
 	.home_r_bn{background:url("/images/main/home_r_bg.gif") no-repeat 0 -1px; height:446px;}
 	.home_r_bn li{width:123px; margin:11px 15px; float:left;}
+	.home_r_bn li > span {display:block; position:relative; z-index:-1; padding:8px 0; border:1px solid #bcc1ec; background-color:#F1F3FF; text-align:center}
 	.home_r_bn .orange{color:#ef5a23;}
 	.home_r_bn .blue{color:#3b7deb;}
 	.home_r_bn .gray{color:#333;}
@@ -694,3 +695,5 @@ a, a:hover {text-decoration:none;color:#05b99b;}
 
 /*알리미 2012.04.02*/
 .alimy {border-collapse:collapse; border-spacing:0; border:5px solid #00b497; width:605px;}
+
+.screen_out{display:block;overflow:hidden;position:absolute;left:-9999px;width:1px;height:1px;font-size:0;line-height:0;text-indent:-9999px}

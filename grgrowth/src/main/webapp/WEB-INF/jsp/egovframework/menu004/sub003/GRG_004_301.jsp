@@ -1,6 +1,7 @@
 <%@ page language="java" pageEncoding="utf-8" contentType="text/html; charset=utf-8" session="false"%>
 
 <%@ include file="/WEB-INF/jsp/egovframework/include/header.jsp" %>
+<%@ include file="/WEB-INF/jsp/egovframework/include/sidebar.jsp" %>
 
 <div id="container">
 
@@ -144,7 +145,7 @@
 	
 </div>
 
-<%@ include file="/WEB-INF/jsp/egovframework/include/sidebar.jsp" %>
+
 
 <div class="clear"></div>
 

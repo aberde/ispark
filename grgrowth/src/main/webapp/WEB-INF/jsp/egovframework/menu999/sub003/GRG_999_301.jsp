@@ -71,7 +71,7 @@
 
 </div>
 
-<%@ include file="/WEB-INF/jsp/egovframework/include/sidebar.jsp" %>
+
 
 <div class="clear"></div>
 

@@ -1,4 +1,7 @@
 <%@ page language="java" pageEncoding="utf-8" contentType="text/html; charset=utf-8" session="false"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+
 <div id="sidebar">
 	<c:choose>
 		<c:when test="${ fn:indexOf(pageContext.request.requestURI, 'menu001') >= 0 }">

@@ -24,6 +24,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import egovframework.grgrowth.common.SearchVO;
 import egovframework.grgrowth.common.service.CommonBoardVO;
 import egovframework.grgrowth.menu003.service.Menu003Service;
 import egovframework.rte.fdl.property.EgovPropertyService;
@@ -48,7 +49,7 @@ public class Menu003Controller {
 	 * @throws Exception
 	 */
 	@RequestMapping(value = "/menu003/sub002/GRG_003_201.do")
-	public String GRG_003_201(ModelMap model) throws Exception {
+	public String GRG_003_201(@ModelAttribute("vo") SearchVO vo, ModelMap model) throws Exception {
 	    return "menu003/sub002/GRG_003_201";
 	}
 	
@@ -110,7 +111,7 @@ public class Menu003Controller {
 	 * @throws Exception
 	 */
 	@RequestMapping(value = "/menu003/sub004/GRG_003_401.do")
-	public String GRG_003_401(ModelMap model) throws Exception {
+	public String GRG_003_401(@ModelAttribute("vo") SearchVO vo, ModelMap model) throws Exception {
 	    return "menu003/sub004/GRG_003_401";
 	}
 }

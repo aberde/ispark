@@ -4,7 +4,7 @@
 <html dir="ltr" lang="en-US">
 <head>
 	<meta charset="UTF-8" />
-	<title>녹색성장위원회</title>
+	<title>기상청 지역날씨</title>
 	<style>
 		/* news ticker */
 		#newsTicker {float: left; width: 100%; height: 30px; position: absolute; top: 250px; left: 0px; background: #fff;}

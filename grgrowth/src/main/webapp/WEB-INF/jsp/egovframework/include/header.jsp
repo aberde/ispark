@@ -14,7 +14,11 @@
 <!--<![endif]-->
 <head>
 	<meta charset="UTF-8" />
-	<title>녹색성장위원회</title>
+	
+	<c:set var="requestURI" value="${ fn:split(pageContext.request.requestURI, '/') }" />
+	<c:set var="requestURI" value="${ requestURI[fn:length(requestURI)-1] }" />
+	<c:set var="queryString" value="${ fn:substring(pageContext.request.queryString, 0, fn:indexOf(pageContext.request.queryString, '&')) }" />
+	<title>녹색성장위원회<c:out value="${ vo.page_title[requestURI] }" /><c:out value="${ vo.page_title[queryString] }" /></title>
 	
 	<link rel="stylesheet" type="text/css" href="<c:url value="/css/style.css" />">
 	<link rel="stylesheet" type="text/css" href="<c:url value="/css/layout.css" />">
@@ -129,6 +133,10 @@
 </head>
 
 <body>
+	<div id="greenGrowthIndex" class="screen_out">
+		<a href="#greenGrowthBody" rel="bookmark">본문 바로가기</a>
+	</div>
+
 	<!-- wrapper -->
 	<div id="wrapper">
 
@@ -139,9 +147,8 @@
 
 			<!-- logo -->
 			<div id="logo" style="padding:0px 0 10px 0px;">
-				<a href="<c:url value="/" />" title="녹색성장위원회"><img 
-					src="<c:url value="/images/main/logo2.jpg" />" alt="녹색성장위원회" title="녹색성장위원회" /></a>
-			</div>
+					<a href="<c:url value="/" />" title="녹색성장위원회"><img src="<c:url value="/images/main/logo2.jpg" />" alt="녹색성장 더 큰 대한민국" /></a>
+			</div>	
 			<!-- /logo -->
 
 			<!-- navi -->
@@ -168,16 +175,16 @@
 				</li>
 				<li>
 					<a href="<c:url value="/cmmn/commonBoardList.do?category_seq=1" />"><img id="mNavi2" src="<c:url value="/images/main/mNavi2.gif" />"
-						border="0" alt="소식" onmouseover="fnShow(2);" onmouseout="fnHide(2);" /></a>
-					<ul class="sub-menu" onmouseover="fnShow(2);" onmouseout="fnHide(2);">
+						border="0" alt="소식" onmouseover="fnShow(2);" onmouseout="fnHide(2);" onfocus="fnShow(2)" onblur="fnHide(2);" /></a>
+					<ul class="sub-menu" onmouseover="fnShow(2);" onmouseout="fnHide(2);" onfocus="fnShow(2)" onblur="fnHide(2);">
 						<li class="sub-width2-1"><a href="<c:url value="/cmmn/commonBoardList.do?category_seq=1" />">위원회활동</a></li>
 						<li class="sub-width2-1"><a href="<c:url value="/cmmn/commonBoardList.do?category_seq=2" />">주요소식</a></li>
 					</ul>
 				</li>
 				<li>
 					<a href="<c:url value="/cmmn/commonBoardList.do?category_seq=3" />"><img id="mNavi3" src="<c:url value="/images/main/mNavi3.gif" />"
-						border="0" alt="자료실" onmouseover="fnShow(3);" onmouseout="fnHide(3);" /></a>
-					<ul class="sub-menu" onmouseover="fnShow(3);" onmouseout="fnHide(3);">
+						border="0" alt="정보" onmouseover="fnShow(3);" onmouseout="fnHide(3);" onfocus="fnShow(3)" onblur="fnHide(3);" /></a>
+					<ul class="sub-menu" onmouseover="fnShow(3);" onmouseout="fnHide(3);" onfocus="fnShow(3)" onblur="fnHide(3);">
 						<li class="sub-width3-1 sub-depth">
 							<a href="<c:url value="/cmmn/commonBoardList.do?category_seq=3" />">회의자료</a>
 							<ul class="sub-menu">
@@ -192,8 +199,8 @@
 				</li>
 				<li>
 					<a href="<c:url value="/menu004/sub001/GRG_004_101.do" />"><img id="mNavi5" src="<c:url value="/images/main/mNavi5.gif" />"
-						border="0" alt="녹색성장위원회 소개" onmouseover="fnShow(5);" onmouseout="fnHide(5);" /></a>
-					<ul class="sub-menu" onmouseover="fnShow(5);" onmouseout="fnHide(5);">
+						border="0" alt="위원회" onmouseover="fnShow(5);" onmouseout="fnHide(5);" onfocus="fnShow(5)" onblur="fnHide(5);" /></a>
+					<ul class="sub-menu" onmouseover="fnShow(5);" onmouseout="fnHide(5);" onfocus="fnShow(5)" onblur="fnHide(5);">
 						<li><a href="<c:url value="/menu004/sub001/GRG_004_101.do" />">인사말</a></li>
 						<li class="sub-width5-2 sub-depth"><a href="<c:url value="/menu004/sub002/GRG_004_201.do" />">위원소개</a>
 							<ul>
@@ -214,7 +221,7 @@
 			<!-- 전체 메뉴 -->
 			<div class="all">
 				<p class="naviOpenAll">
-					<img id="mNavi6" src="<c:url value="/images/main/mNavi_open.gif" />" border="0" alt="전체펼침" onclick="fnNaviAllopenclose()" style="cursor: pointer;" />
+					<img id="mNavi6" src="<c:url value="/images/main/mNavi_open.gif" />" border="0" alt="전체메뉴" onclick="fnNaviAllopenclose()" style="cursor: pointer;" />
 				</p>
 				<div class="divNaviAll" id="divNaviAll">
 					<ul class="ulAllNavi-1 ulAllN">
@@ -248,7 +255,7 @@
 					</ul>
 					<ul class="ulAllNavi-4 ulAllN">
 						<li>
-							<a href="<c:url value="/menu004/sub001/GRG_004_101.do" />" class="me">위원회</a>
+							<a href	="<c:url value="/menu004/sub001/GRG_004_101.do" />" class="me">위원회</a>
 							<ul>
 								<li><a href="<c:url value="/menu004/sub001/GRG_004_101.do" />">인사말</a></li>
 								<li><a href="<c:url value="/menu004/sub002/GRG_004_201.do" />">위원회소개</a></li>
@@ -265,3 +272,5 @@
 		</div>
 
 		<div class="clear"></div>
+
+		<a href="#" id="greenGrowthBody" class="screen_out">본문</a>

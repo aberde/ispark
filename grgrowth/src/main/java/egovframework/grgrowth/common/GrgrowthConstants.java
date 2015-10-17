@@ -36,6 +36,36 @@ public class GrgrowthConstants {
 	
 	// 세션 사용자 키
 	public static final String SESSION_USER_ID = "SESSION_USER_ID";
+	
+	// 화면별 title
+    public static final Map<String, String> PAGE_TITLE;
+    static {
+        Map<String, String> dataMap = new LinkedHashMap<String, String>();
+        dataMap.put("home.jsp", "");
+        dataMap.put("search.jsp", " - 통합검색");
+        dataMap.put("GRG_001_101.jsp", " - 녹색성장 - 개념 - 개념");
+        dataMap.put("GRG_001_102.jsp", " - 녹색성장 - 개념 - 추진배경");
+        dataMap.put("GRG_001_201.jsp", " - 녹색성장 - 국가전략 - 국가전략");
+        dataMap.put("GRG_001_202.jsp", " - 녹색성장 - 국가전략 - 5개년 계획");
+        dataMap.put("category_seq=1", " - 소식 - 위원회활동");
+        dataMap.put("category_seq=2", " - 소식 - 주요소식");
+        dataMap.put("category_seq=3", " - 정보 - 회의자료 - 회의자료(2013.03~)");
+        dataMap.put("category_seq=4", " - 정보 - 회의자료 - 회의자료(~2013.02)");
+        dataMap.put("GRG_003_201.jsp", " - 정보 - 녹색법령");
+        dataMap.put("GRG_003_301.jsp", " - 정보 - 용어사전");
+        dataMap.put("GRG_003_401.jsp", " - 정보 - 관련 사이트");
+        dataMap.put("GRG_004_101.jsp", " - 위원회 - 인사말");
+        dataMap.put("GRG_004_201.jsp", " - 위원회 - 위원소개 - 당연직위원");
+        dataMap.put("GRG_004_202.jsp", " - 위원회 - 위원소개 - 민간위원");
+        dataMap.put("GRG_004_301.jsp", " - 위원회 - 위원회연혁");
+        dataMap.put("GRG_004_401.jsp", " - 위원회 - 위원회기능 및 구성");
+        dataMap.put("GRG_004_501.jsp", " - 위원회 - 위원회로고");
+        dataMap.put("GRG_999_101.jsp", " - 이용안내 - 홈페이지 이용안내");
+        dataMap.put("GRG_999_201.jsp", " - 이용안내 - 저작권정책");
+        dataMap.put("GRG_999_301.jsp", " - 사이트맵");
+        dataMap.put("GRG_999_401.jsp", " - 이용안내 - 찾아오시는길");
+        PAGE_TITLE = Collections.unmodifiableMap(dataMap);
+    }
 	// ###########################################################
 	
 	// ###########################################################
@@ -64,8 +94,8 @@ public class GrgrowthConstants {
         dataMap.put("172.20.12.164", "");
         dataMap.put("172.20.12.166", "");
         dataMap.put("61.34.132.197", "");  // ISPARK
-        dataMap.put("172.30.1.20", "");  // 웹디
-        dataMap.put("61.101.199.84", "");  // 개발자
+        dataMap.put("121.156.215.161", "");  // 웹디
+        dataMap.put("61.101.87.228", "");  // 개발자
         ADMIN_ACCESS_IP = Collections.unmodifiableMap(dataMap);
     }
 	// ###########################################################

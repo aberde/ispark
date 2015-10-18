@@ -14,7 +14,7 @@
 			<p>
 				<img class="alignnone size-full wp-image-38881" alt="대한민국 건국 60년을 맞는 오늘, 저는 '저탄소 녹색 성장'을 새로운 비전의 축으로 제시하고자 합니다. 녹색성장은 온실가스와 환경오염을 줄이는 지속가능한 성장입니다. 녹색기술과 청정에너지로 신성장동력과 일자리를 창출하는 신 국가발전 패러다임입니다. -대한민국 건국 60년 경축사(2008.8.15, 대통령)" src="<c:url value="/images/menu001/sub001/concept_ban_02.jpg" />" width="599" height="171" />
 				<br />
-				<img class="ban" alt="녹색성장 Green Growth 삶의 질 개선 및 생활의 녹색혁명 저탄소형 국토개발, 생태공간 조성확대 녹색교통체계, 대중교통 활성화 녹색소비를 통한 녹색시장 조성, 환경과 경제의 선순환 환경과 경제 양축의 시너지(Synergy) 극대화 녹색기술 개발 및 녹색산업 육성:국민소득증대 및 일자리 창출, 산업구조 녹색화 및 청정에너지 확대:기후변화대응 및 온실가스 감축, 국제기대에 부합하는 국가위상 정립 국제기후변화 논의에 적극적 대응 녹색 가교국가로서 글로벌 리더쉽 발휘" src="<c:url value="/images/menu001/sub001/concept_ban_01.jpg" />" width="599" height="358" />
+				<img class="ban" alt="녹색성장 개념" src="<c:url value="/images/menu001/sub001/concept_ban_01.jpg" />" width="599" height="358" longdesc="<c:url value="/longdesc/menu001/sub001/GRG_001_101_01.html" />" />
 			</p>
 			<ul>
 				<li class="ulh4">

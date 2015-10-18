@@ -10,10 +10,11 @@
 			<h1 class="entry_title"></h1>
 			<div>
 				<h1>
-					<img title="녹색성장위원회 민간위원 소개" alt="" src="<c:url value="/images/menu004/sub002/commission_ban_02.jpg" />" />
+					<img alt="녹색성장위원회 민간 위원 소개 녹색성장위원회의 민간위원 소개입니다." src="<c:url value="/images/menu004/sub002/commission_ban_02.jpg" />" />
 				</h1>
 			</div>
 			<table class="line" width="590">
+				<caption class="screen_out">민간위원 소개</caption>
 				<thead>
 					<tr>
 						<th width="120">분과</th>
@@ -37,7 +38,7 @@
 						<td rowspan="5">녹색성장전략</td>
 						<td>전략</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59884" title="min27" alt="" src="<c:url value="/images/menu004/sub002/min27.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59884" alt="이지순" src="<c:url value="/images/menu004/sub002/min27.jpg" />" width="115" height="134" />
 						</td>
 						<td>이지순</td>
 						<td class="r">서울대 경제학부 교수</td>
@@ -45,7 +46,7 @@
 					<tr>
 						<td>법제</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59885" title="pmin1" alt="" src="<c:url value="/images/menu004/sub002/pmin1.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59885" alt="조홍식" src="<c:url value="/images/menu004/sub002/pmin1.jpg" />" width="115" height="134" />
 						</td>
 						<td>조홍식</td>
 						<td class="r">서울대 법과대 교수</td>
@@ -53,7 +54,7 @@
 					<tr>
 						<td>국제협력</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59886" title="pmin2" alt="" src="<c:url value="/images/menu004/sub002/pmin2.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59886" alt="차문중" src="<c:url value="/images/menu004/sub002/pmin2.jpg" />" width="115" height="134" />
 						</td>
 						<td>차문중</td>
 						<td class="r">한국개발연구원 선임연구위원</td>
@@ -61,7 +62,7 @@
 					<tr>
 						<td>NGO · 언론</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59887" title="pmin3" alt="" src="<c:url value="/images/menu004/sub002/pmin3.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59887" alt="김재옥" src="<c:url value="/images/menu004/sub002/pmin3.jpg" />" width="115" height="134" />
 						</td>
 						<td>김재옥</td>
 						<td class="r">한국기후환경네트워크 상임대표</td>
@@ -69,7 +70,7 @@
 					<tr>
 						<td>언론 · 학교</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59888" title="min26" alt="" src="<c:url value="/images/menu004/sub002/min26.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59888" alt="한삼희" src="<c:url value="/images/menu004/sub002/min26.jpg" />" width="115" height="134" />
 						</td>
 						<td>한삼희</td>
 						<td class="r">조선일보 논설위원</td>
@@ -78,7 +79,7 @@
 						<td rowspan="5">기후변화대응</td>
 						<td>기후</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59891" title="pmin7" alt="" src="<c:url value="/images/menu004/sub002/pmin7.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59891" alt="정진승" src="<c:url value="/images/menu004/sub002/pmin7.jpg" />" width="115" height="134" />
 						</td>
 						<td>정진승</td>
 						<td class="r">APEC 기후센터 소장</td>
@@ -86,7 +87,7 @@
 					<tr>
 						<td>기후</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59890" title="pmin6" alt="" src="<c:url value="/images/menu004/sub002/pmin6.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59890" alt="김정인" src="<c:url value="/images/menu004/sub002/pmin6.jpg" />" width="115" height="134" />
 						</td>
 						<td>김정인</td>
 						<td class="r">중앙대 경영경제대 교수</td>
@@ -94,7 +95,7 @@
 					<tr>
 						<td>기후</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59889" title="pna21" alt="" src="<c:url value="/images/menu004/sub002/pna21.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59889" alt="한화진" src="<c:url value="/images/menu004/sub002/pna21.jpg" />" width="115" height="134" />
 						</td>
 						<td>한화진</td>
 						<td class="r">한국환경정책평가연구원 선임연구위원</td>
@@ -102,7 +103,7 @@
 					<tr>
 						<td>기후</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59892" title="pmin8" alt="" src="<c:url value="/images/menu004/sub002/pmin8.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59892" alt="전의찬" src="<c:url value="/images/menu004/sub002/pmin8.jpg" />" width="115" height="134" />
 						</td>
 						<td>전의찬</td>
 						<td class="r">세종대 환경에너지융합학과 교수</td>
@@ -110,7 +111,7 @@
 					<tr>
 						<td>기후</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59893" title="pna24" alt="" src="<c:url value="/images/menu004/sub002/pna24.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59893" alt="신동천" src="<c:url value="/images/menu004/sub002/pna24.jpg" />" width="115" height="134" />
 						</td>
 						<td>신동천</td>
 						<td class="r">연세대 경제학부 교수</td>
@@ -119,7 +120,7 @@
 						<td rowspan="5">에너지</td>
 						<td>에너지</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59895" title="pmin11" alt="" src="<c:url value="/images/menu004/sub002/pmin11.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59895" alt="강승진" src="<c:url value="/images/menu004/sub002/pmin11.jpg" />" width="115" height="134" />
 						</td>
 						<td>강승진</td>
 						<td class="r">한국산업기술대<br /> 지식기반기술에너지대학원장
@@ -128,7 +129,7 @@
 					<tr>
 						<td>에너지</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59894" title="pmin10" alt="" src="<c:url value="/images/menu004/sub002/pmin10.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59894" alt="허은녕" src="<c:url value="/images/menu004/sub002/pmin10.jpg" />" width="115" height="134" />
 						</td>
 						<td>허은녕</td>
 						<td class="r">서울대 에너지시스템공학부 교수</td>
@@ -136,7 +137,7 @@
 					<tr>
 						<td>에너지</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59896" title="pmin12" alt="" src="<c:url value="/images/menu004/sub002/pmin12.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59896" alt="조성경" src="<c:url value="/images/menu004/sub002/pmin12.jpg" />" width="115" height="134" />
 						</td>
 						<td>조성경</td>
 						<td class="r">명지대 방목기초교육대학 교수</td>
@@ -144,7 +145,7 @@
 					<tr>
 						<td>에너지</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59897" title="pmin13" alt="" src="<c:url value="/images/menu004/sub002/pmin13.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59897" alt="손양훈" src="<c:url value="/images/menu004/sub002/pmin13.jpg" />" width="115" height="134" />
 						</td>
 						<td>손양훈</td>
 						<td class="r">에너지경제연구원장</td>
@@ -152,7 +153,7 @@
 					<tr>
 						<td>산업</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59898" title="pmin14" alt="" src="<c:url value="/images/menu004/sub002/pmin14.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59898" alt="김희집" src="<c:url value="/images/menu004/sub002/pmin14.jpg" />" width="115" height="134" />
 						</td>
 						<td>김희집</td>
 						<td class="r">서울대 행정대학원 초빙교수</td>
@@ -161,7 +162,7 @@
 						<td rowspan="5">녹색기술산업</td>
 						<td>기술</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59900" title="pmin16" alt="" src="<c:url value="/images/menu004/sub002/pmin16.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59900" alt="문승일" src="<c:url value="/images/menu004/sub002/pmin16.jpg" />" width="115" height="134" />
 						</td>
 						<td>문승일</td>
 						<td class="r">서울대 전기공학부 교수</td>
@@ -169,7 +170,7 @@
 					<tr>
 						<td>산업</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59899" title="min28" alt="" src="<c:url value="/images/menu004/sub002/min28.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59899" alt="신미남" src="<c:url value="/images/menu004/sub002/min28.jpg" />" width="115" height="134" />
 						</td>
 						<td>신미남</td>
 						<td class="r">(주)두산 퓨얼셀 사장</td>
@@ -177,7 +178,7 @@
 					<tr>
 						<td>기술</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59901" title="pna23" alt="" src="<c:url value="/images/menu004/sub002/pna23.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59901" alt="남기석" src="<c:url value="/images/menu004/sub002/pna23.jpg" />" width="115" height="134" />
 						</td>
 						<td>남기석</td>
 						<td class="r">전북대 화학공학부 교수</td>
@@ -185,7 +186,7 @@
 					<tr>
 						<td>기술</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59902" title="pna22" alt="" src="<c:url value="/images/menu004/sub002/pna22.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59902" alt="한경섭" src="<c:url value="/images/menu004/sub002/pna22.jpg" />" width="115" height="134" />
 						</td>
 						<td>한경섭</td>
 						<td class="r">포항공대 기계공학과 교수</td>
@@ -193,7 +194,7 @@
 					<tr>
 						<td>녹색건축</td>
 						<td>
-							<img class="aligncenter size-full wp-image-59903" title="pmin19" alt="" src="<c:url value="/images/menu004/sub002/pmin19.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59903" alt="김도년" src="<c:url value="/images/menu004/sub002/pmin19.jpg" />" width="115" height="134" />
 						</td>
 						<td>김도년</td>
 						<td class="r">성균관대 건축학과 교수</td>

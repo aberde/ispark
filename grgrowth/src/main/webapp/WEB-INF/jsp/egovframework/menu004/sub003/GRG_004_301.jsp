@@ -10,11 +10,11 @@
 			<h1 class="entry_title"></h1>
 			<div>
 				<h1>
-					<img title="녹색성장 위원회 연혁" src="<c:url value="/images/menu004/sub003/history_ban_01.gif" />" alt="" />
+					<img src="<c:url value="/images/menu004/sub003/history_ban_01.gif" />" alt="녹색성장위원회 주요연혁 '09.1월 녹색성장정책을 총괄,조정하기 위해 대통령 직속으로 녹색성장위원회 설치, '저탄소녹색성장기본법'을 제정('10.1월)하여 녹색위 법적 근거 마련, '13.3월 정부조직개편에 따라 녹색성장위원회를 총리소속으로 변경" />
 				</h1>
 				<ul>
 					<ul>
-						<img class="alignnone size-full wp`-image-614" title="history_sttl_05" src="<c:url value="/images/menu004/sub003/sttl_2014.jpg" />" alt="" width="80" height="38" />
+						<img class="alignnone size-full wp`-image-614" src="<c:url value="/images/menu004/sub003/sttl_2014.jpg" />" alt="2014" width="80" height="38" />
 						<ul>
 							<li>2014.12.19 제5기 1차 전체회의 개최</li>
 							<li>2014.09.04 제4기 5차 전체회의 개최</li>
@@ -24,13 +24,13 @@
 						</ul>
 					</ul>
 					<ul>
-						<img class="alignnone size-full wp`-image-614" title="history_sttl_05" src="<c:url value="/images/menu004/sub003/history_sttl_2013.jpg" />" alt="" width="80" height="38" />
+						<img class="alignnone size-full wp`-image-614" src="<c:url value="/images/menu004/sub003/history_sttl_2013.jpg" />" alt="2013" width="80" height="38" />
 						<ul>
 							<li>2013.10.30 제4기 1차 전체회의 개최</li>
 							<li>2013.10.10 제4기 녹색성장위원회 민간위원(21명) 임명</li>
 							<li>2013. 2. 4 제22차 녹색성장위원회 보고대회<br> -“녹색위 민간위원, 녹색성장 10대 과제 제안”</li>
 						</ul>
-						<img class="alignnone size-full wp-image-614" title="history_sttl_05" src="<c:url value="/images/menu004/sub003/history_sttl_05.gif" />" alt="" width="80" height="38" />
+						<img class="alignnone size-full wp-image-614" src="<c:url value="/images/menu004/sub003/history_sttl_05.gif" />" alt="2012" width="80" height="38" />
 						<ul>
 							<li>2012. 12. 26 중앙-지방 녹색성장위원회 정기회의 개최</li>
 							<li>2012. 12. 13 ‘2012년도 녹색성장 생생도시’ 정부 포상</li>
@@ -69,7 +69,7 @@
 							<li>2012. 01. 18 양수길 녹색성장위원장, GGKP 자문위의장 위촉</li>
 							<li>2012. 01. 03 2011년 이상기후에 대한 범부처 합동 보고서 발간</li>
 						</ul>
-						<img class="alignnone size-full wp-image-613" title="history_sttl_01" src="<c:url value="/images/menu004/sub003/history_sttl_01.jpg" />" alt="" width="80" height="38" />
+						<img class="alignnone size-full wp-image-613" src="<c:url value="/images/menu004/sub003/history_sttl_01.jpg" />" alt="2011" width="80" height="38" />
 						<ul>
 							<li>2011. 12. 28 제13차 녹색성장위원회 및 제4차 녹색성장 이행점검 결과 보고대회<br />
 								- 민간과 국제사회가 바라본 녹색성장
@@ -94,7 +94,7 @@
 							<li>2011. 01. 27 녹색성장위원회 2011년 업무보고</li>
 							<li>2011. 01. 11 “G20 성공과 더 큰 대한민국” 합동보고대회 개최</li>
 						</ul>
-						<img class="alignnone size-full wp-image-614" title="history_sttl_02" src="<c:url value="/images/menu004/sub003/history_sttl_02.jpg" />" alt="" width="80" height="38" />
+						<img class="alignnone size-full wp-image-614" src="<c:url value="/images/menu004/sub003/history_sttl_02.jpg" />" alt="2010" width="80" height="38" />
 						<ul>
 							<li>2010. 12. 06 제10차 녹색성장위원회 ? 그린카 미래 전략 수립</li>
 							<li>2010. 10. 13 제9차 녹색성장위원회 ? 중소기업 온실가스 감축 지원 방안 수립</li>
@@ -108,7 +108,7 @@
 							<li>2010. 02. 03 제7차 녹색성장위원회 ? 2010년 7대 실천과제 선정</li>
 							<li>2010. 01. 14 이명박대통령,「저탄소 녹색성장기본법」 공포안 서명</li>
 						</ul>
-						<img class="alignnone size-full wp-image-615" title="history_sttl_03" src="<c:url value="/images/menu004/sub003/history_sttl_03.jpg" />" alt="" width="80" height="38" />
+						<img class="alignnone size-full wp-image-615" src="<c:url value="/images/menu004/sub003/history_sttl_03.jpg" />" alt="2009" width="80" height="38" />
 						<ul>
 							<li>2009. 12. 29 「저탄소 녹색성장기본법」 국회 통과</li>
 							<li>2009. 11. 17 2020년 온실가스 감축목표 27% 또는 30% (배출전망치 대비) 감축제안 (6차 녹색위)</li>
@@ -123,7 +123,7 @@
 							<li>2009. 02. 16 제1차 녹색성장위원회 개최 및 공식출범</li>
 							<li>2009. 01. 05 녹색성장위원회의 설립 및 운영에 관한 대통령훈령 공포</li>
 						</ul>
-						<img class="alignnone size-full wp-image-616" title="history_sttl_04" src="<c:url value="/images/menu004/sub003/history_sttl_04.jpg" />" alt="" width="80" height="38" />
+						<img class="alignnone size-full wp-image-616" src="<c:url value="/images/menu004/sub003/history_sttl_04.jpg" />" alt="2008" width="80" height="38" />
 						<ul>
 							<li>2008. 12. 녹색성장위원회 설립준비팀 구 녹색성장기획단 발족 등 설립준비공포</li>
 							<li>2008. 11. 저탄소 녹색성장 추진체계 마련 지시</li>

@@ -33,7 +33,7 @@
 			<img alt="비전체계" src="<c:url value="/images/menu001/sub002/strategy_ttl_03.jpg" />" />
 		</h1>
 		<p>
-			<img class="ban" alt="비전 2020년까지 세계7대 2050년까지 세계5대 녹색강국 진입 3대전력, 10대 정책방향, 기후변화 적응 및 에너지 자립 1.효율적 온실가스 감축 2.탈석유,에너지자립 강화 3.기후변화 적응역량 강화, 신성장 동력 창출 4.녹색기술개발 및 성장동력화 5.산업의 녹핵화 및 녹색산업 육성 6.산업구조의 고도화 7.녹색경제 기반 조성, 삶의 질 개선과 국가위상 강화 8.녹색국토,교통의 조성 9.생활의 녹색혁명 10.세계적인 녹색성장 모범국가 구현" src="<c:url value="/images/menu001/sub002/strategy_ban_01.jpg" />" width="598" height="369" />
+			<img class="ban" alt="비전체계" longdesc="<c:url value="/longdesc/menu001/sub002/GRG_001_201_01.html" />" src="<c:url value="/images/menu001/sub002/strategy_ban_01.jpg" />" width="598" height="369" />
 		</p>
 		<p>
 			<a href="<c:url value="/download/090713NationalStrategy.zip" />"

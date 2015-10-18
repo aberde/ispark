@@ -9,7 +9,7 @@
 		<h1 class="entry_title"></h1>
 		<div class="clear"></div>
 		<h1 class="entry_title">찾아오시는길</h1>
-		<img src="<c:url value="/images/menu999/sub004/map.gif" />" alt="오시는길" />
+		<img src="<c:url value="/images/menu999/sub004/map.gif" />" alt="찾아오시는길" longdesc="<c:url value="/longdesc/menu999/sub004/GRG_999_401_01.html" />" />
 	</div>
 	<!-- /post -->
 </div>

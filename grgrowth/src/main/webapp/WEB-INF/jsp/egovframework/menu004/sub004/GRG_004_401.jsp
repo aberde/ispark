@@ -12,9 +12,9 @@
 				<p>&nbsp;</p>
 				<p>
 					&nbsp;<br />
-					<img title="녹색성장위원회 기능" alt="" src="<c:url value="/images/menu004/sub004/jo.gif" />" /><br />
-					<img title="녹색성장위원회 기능" alt="" src="<c:url value="/images/menu004/sub004/jo01.gif" />" /><br />
-					<img title="녹색성장위원회 기능" alt="" src="<c:url value="/images/menu004/sub004/jo02.gif" />" />
+					<img alt="녹색성장위원회 구성" longdesc="<c:url value="/longdesc/menu004/sub004/GRG_004_401_01.html" />" src="<c:url value="/images/menu004/sub004/jo.gif" />" /><br />
+					<img alt="녹색성장지원단 구성" longdesc="<c:url value="/longdesc/menu004/sub004/GRG_004_401_02.html" />" src="<c:url value="/images/menu004/sub004/jo01.gif" />" /><br />
+					<img alt="녹색성장지원단 업무분장" longdesc="<c:url value="/longdesc/menu004/sub004/GRG_004_401_03.html" />" src="<c:url value="/images/menu004/sub004/jo02.gif" />" />
 				</p>
 			</div>
 		</div>

@@ -8,11 +8,11 @@
 		<div id="divSitemap">
 			<div id="smTitle">
 				<img src="<c:url value="/images/menu999/sub003/smTitle.gif" />" alt="사이트맵" id="smImg1" />
-				<img src="<c:url value="/images/menu999/sub003/smTitleBG.gif" />" alt="" id="smImg2" />
+				<img src="<c:url value="/images/menu999/sub003/smTitleBG.gif" />" alt="녹색성장위원회 홈페이지 전체 메뉴를 한 눈에 보실 수 있습니다." id="smImg2" />
 			</div>
 
 			<div class="smap-1" style="width: 180px; padding-left: 50px;">
-				<a href="<c:url value="/menu001/sub001/GRG_001_101.do" />"><img src="<c:url value="/images/menu999/sub003/smTitle01.gif" />" alt="" title="녹색성장" /></a>
+				<a href="<c:url value="/menu001/sub001/GRG_001_101.do" />"><img src="<c:url value="/images/menu999/sub003/smTitle01.gif" />" alt="녹색성장" /></a>
 				<ul>
 					<li><a href="<c:url value="/menu001/sub001/GRG_001_101.do" />">개념</a></li>
 					<ul>
@@ -28,7 +28,7 @@
 			</div>
 
 			<div class="smap-2" style="width: 180px;">
-				<a href="<c:url value="/cmmn/commonBoardList.do?category_seq=1" />"><img src="<c:url value="/images/menu999/sub003/smTitle03.gif" />" alt="" title="소식" /></a>
+				<a href="<c:url value="/cmmn/commonBoardList.do?category_seq=1" />"><img src="<c:url value="/images/menu999/sub003/smTitle03.gif" />" alt="소식" /></a>
 				<ul>
 					<li><a href="<c:url value="/cmmn/commonBoardList.do?category_seq=1" />">위원회 활동</a></li>
 					<li><a href="<c:url value="/cmmn/commonBoardList.do?category_seq=2" />">주요소식</a></li>
@@ -36,7 +36,7 @@
 			</div>
 
 			<div class="smap-3" style="width: 180px;">
-				<a href="<c:url value="/cmmn/commonBoardList.do?category_seq=3" />"><img src="<c:url value="/images/menu999/sub003/smTitle02.gif" />" alt="" title="정보" /></a>
+				<a href="<c:url value="/cmmn/commonBoardList.do?category_seq=3" />"><img src="<c:url value="/images/menu999/sub003/smTitle02.gif" />" alt="정보" /></a>
 				<ul>
 					<li><a href="<c:url value="/cmmn/commonBoardList.do?category_seq=3" />">회의자료</a></li>
 					<ul>
@@ -50,7 +50,7 @@
 			</div>
 
 			<div class="smap-4" style="width: 200px;">
-				<a href="<c:url value="/menu004/sub001/GRG_004_101.do" />"><img src="<c:url value="/images/menu999/sub003/smTitle04.gif" />" alt="" title="위원회" /></a>
+				<a href="<c:url value="/menu004/sub001/GRG_004_101.do" />"><img src="<c:url value="/images/menu999/sub003/smTitle04.gif" />" alt="위원회" /></a>
 				<ul>
 					<li><a href="<c:url value="/menu004/sub001/GRG_004_101.do" />">인사말</a></li>
 					<li><a href="<c:url value="/menu004/sub002/GRG_004_201.do" />">위원소개</a></li>

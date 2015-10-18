@@ -11,10 +11,10 @@
 				<tbody>
 					<tr>
 						<td rowspan="4">
-							<img title="greeting_ban_01" src="<c:url value="/images/menu004/sub001/greeting_ban_01.jpg" />" alt="" width="250" height="250" />
+							<img src="<c:url value="/images/menu004/sub001/greeting_ban_01.jpg" />" alt="" width="250" height="250" />
 						</td>
 						<td>
-							<img class="s2" title="저탄소 녹색성장은 선진 일류국가로 가는 희망의 길입니다." src="<c:url value="/images/menu004/sub001/greeting_sttl_01.jpg" />" alt="" width="299" height="43" />
+							<img class="s2" alt="저탄소 녹색성장은 선진 일류국가로 가는 희망의 길입니다." src="<c:url value="/images/menu004/sub001/greeting_sttl_01.jpg" />" width="299" height="43" />
 						</td>
 					</tr>
 					<tr>
@@ -51,7 +51,7 @@
 						<td>
 							<p>&nbsp;</p>
 							<p>
-								<img class="s" title="chairperson_signature_title" src="<c:url value="/images/menu004/sub001/chairperson_signature_title.gif" />" alt="" width="152" height="17" />
+								<img class="s" src="<c:url value="/images/menu004/sub001/chairperson_signature_title.gif" />" alt="녹색성장위원회 공동위원장" width="152" height="17" />
 							</p>
 						</td>
 					</tr>
@@ -63,14 +63,14 @@
 		</div>
 		<div>
 			<h1>
-				<img title="위원장 약력" src="<c:url value="/images/menu004/sub001/greeting_ttl_02.jpg" />" alt="" />
+				<img src="<c:url value="/images/menu004/sub001/greeting_ttl_02.jpg" />" alt="위원장 약력" />
 			</h1>
 			<table>
 				<tbody>
 					<tr>
 						<td class="d" style="vertical-align: top;">
 							<p style="text-align: center;">
-								<img class="aligncenter size-full wp-image-59907" title="황교안_인사말" src="<c:url value="/images/menu004/sub001/h.jpg"/>" alt="황안교" width="147" height="166" />
+								<img class="aligncenter size-full wp-image-59907" src="<c:url value="/images/menu004/sub001/h.jpg"/>" alt="황안교" width="147" height="166" />
 							</p>
 							<p style="text-align: center;">
 								<strong>황교안(黃敎安)</strong>

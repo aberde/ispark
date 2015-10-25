@@ -4,7 +4,6 @@
 
 <script type="text/javascript">
 	$(document).ready(function() {
-		
 // 		window.open("<c:url value="/main/noticePop.do" />", "noticePop", "width=260, height=226, scrollbars=0");
 	});
 </script>

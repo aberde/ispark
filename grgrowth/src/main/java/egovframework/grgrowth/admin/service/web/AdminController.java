@@ -68,8 +68,16 @@ public class AdminController {
 	 * @throws Exception
 	 */
 	@RequestMapping(value = "/admin/adminLogin.do")
-	public String adminLogin(@ModelAttribute("vo") AdminLoginVO vo, ModelMap model) throws Exception {
-	    return "/admin/adminLogin";
+	public String adminLogin(@ModelAttribute("vo") AdminLoginVO vo, ModelMap model, HttpServletRequest request) throws Exception {
+	    logger.debug("Remote Addr : " + request.getRemoteAddr());
+        
+//        if ( GrgrowthConstants.ADMIN_ACCESS_IP.containsKey(request.getRemoteAddr()) ) {
+//            return "/admin/adminLogin";
+//        } else {
+            return "redirect:/error/ERROR_ACCESS.html";
+//        }
+	    
+//	    return "/admin/adminLogin";
 	}
 	
 	/** 
@@ -82,6 +90,12 @@ public class AdminController {
 	@RequestMapping(value = "/admin/adminLoginProc.do")
 	public String adminLoginProc(@ModelAttribute("vo") AdminLoginVO vo, ModelMap model, HttpServletRequest request) throws Exception {
 	    logger.debug("Remote Addr : " + request.getRemoteAddr());
+	    
+	    try {
+            Util.getMACAddress(request.getRemoteAddr());
+        } catch ( Exception e ) {
+            e.printStackTrace();
+        }
 	    
 	    if ( !GrgrowthConstants.ADMIN_ACCESS_IP.containsKey(request.getRemoteAddr()) ) {
             vo.setErr_msg(GrgrowthConstants.ERR_ADMIN_ACCESS_FALSE);

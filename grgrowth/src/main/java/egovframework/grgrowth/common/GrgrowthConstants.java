@@ -80,10 +80,10 @@ public class GrgrowthConstants {
 	// ## 관리자 로그인 정보
 	// ###########################################################
 	// 관리자 아이디
-	public static final String ADMIN_USER_ID = "admin";
+	public static final String ADMIN_USER_ID = "greenmaster";
 
 	// 관리자 비밀번호
-	public static final String ADMIN_USER_PW = "1234";
+	public static final String ADMIN_USER_PW = "grgreen%200";
 	
 	// 관리자 접근 가능 MAC ADDRESS
     public static final Map<String, String> ADMIN_ACCESS_IP;
@@ -91,6 +91,7 @@ public class GrgrowthConstants {
         Map<String, String> dataMap = new LinkedHashMap<String, String>();
 //        DATAMAP.PUT("10-78-D2-94-00-F5", "");
 //        dataMap.put("10-78-D2-94-00-86", "");
+        dataMap.put("125.128.67.138", "");
         dataMap.put("172.20.12.164", "");
         dataMap.put("172.20.12.166", "");
         dataMap.put("61.34.132.197", "");  // ISPARK

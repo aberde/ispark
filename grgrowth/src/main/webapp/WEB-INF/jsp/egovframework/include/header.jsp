@@ -82,8 +82,10 @@
 
 			if ( objDiv.is(":visible") ) {
 				fnNaviAllclose();
+				docuemnt.frm.searchKeyword.focus();
 			} else {
 				fnNaviAllopen();
+				
 			}
 		}
 		
@@ -107,6 +109,7 @@
 
 			objBtn.attr("src", "<c:url value="/images/main/mNavi_open.gif" />");
 			objDiv.hide();
+			
 		}
 		
 		/**
@@ -131,9 +134,62 @@
 		});
 	</script>
 </head>
-
+<script>
+$(function(){
+	$("#nav > li > a").focusin(function(){
+		$("#nav > li > ul").removeClass("on");
+		$(this).parent('li').children('ul').addClass("on");
+	});
+	$("#nav > li > a").hover(function(){
+		$("#nav > li > ul").removeClass("on");
+		$(this).parent('li').children('ul').addClass("on");
+	});
+	
+	$("#nav > li > ul > li > a").focusin(function(){
+		$("#nav > li > ul > li > ul").removeClass("on");
+		$(this).parent('li').children('ul').addClass("on");
+	});
+	$("#nav > li > ul > li > a").hover(function(){
+		$("#nav > li > ul > li > ul").removeClass("on");
+		$(this).parent('li').children('ul').addClass("on");
+	});
+	$("#home_container").focusin(function(){
+		$("#nav > li > ul").removeClass("on");
+		$("#nav > li > ul > li > ul").removeClass("on");
+	});
+	$("#home_container").hover(function(){
+		$("#nav > li > ul").removeClass("on");
+		$("#nav > li > ul > li > ul").removeClass("on");
+	});
+	$("#sidebar").focusin(function(){
+		$("#nav > li > ul").removeClass("on");
+		$("#nav > li > ul > li > ul").removeClass("on");
+	});
+	$("#container").hover(function(){
+		$("#nav > li > ul").removeClass("on");
+		$("#nav > li > ul > li > ul").removeClass("on");
+	});
+	
+	$(".all").focusin(function(){
+		$("#nav > li > ul").removeClass("on");
+		$("#nav > li > ul > li > ul").removeClass("on");
+	});
+	$(".all").hover(function(){
+		$("#nav > li > ul").removeClass("on");
+		$("#nav > li > ul > li > ul").removeClass("on");
+	});
+	
+	$(".naviOpenAll button").click(function(){
+		$("#divNaviAll").css("display","block");
+	});
+	$(".allc button").click(function(){
+		$("#divNaviAll").css("display","none");
+		$(".naviOpenAll button").focus();
+	});
+});
+</script>
 <body>
-	<div id="greenGrowthIndex" class="screen_out">
+	<div id="greenGrowthIndex" class="screen_out2">
 		<a href="#greenGrowthBody" rel="bookmark">본문 바로가기</a>
 	</div>
 
@@ -146,27 +202,26 @@
 		<div id="navcats">
 
 			<!-- logo -->
-			<div id="logo" style="padding:0px 0 10px 0px;">
+			<div id="logo" style="padding:0px 0px 10px 0px;">
 					<a href="<c:url value="/" />" title="녹색성장위원회"><img src="<c:url value="/images/main/logo2.jpg" />" alt="녹색성장 더 큰 대한민국" /></a>
 			</div>	
 			<!-- /logo -->
 
 			<!-- navi -->
-			<ul id="menu-main-menu" class="nav_cats dropdown">
+			<ul id="nav">
 				<li>
-					<a href="<c:url value="/menu001/sub001/GRG_001_101.do" />"><img id="mNavi1" src="<c:url value="/images/main/mNavi1.gif" />"
-						border="0" alt="녹색성장" onmouseover="fnShow(1)" onmouseout="fnHide(1);" /></a>
+					<a href="<c:url value="/menu001/sub001/GRG_001_101.do" />"><img id="mNavi1" src="<c:url value="/images/main/mNavi1.gif" />" border="0" alt="녹색성장" onmouseover="fnShow(1)" onmouseout="fnHide(1);" /></a>
 					<ul class="sub-menu" onmouseover="fnShow(1);" onmouseout="fnHide(1);">
 						<li class="sub-width1-1 sub-depth">
 							<a href="<c:url value="/menu001/sub001/GRG_001_101.do" />">개념</a>
-							<ul class="sub-menu">
+							<ul class="sub-menu hmake01">
 								<li><a href="<c:url value="/menu001/sub001/GRG_001_101.do" />">개념</a></li>
 								<li><a href="<c:url value="/menu001/sub001/GRG_001_102.do" />">추진배경</a></li>
 							</ul>
 						</li>
 						<li class="sub-width1-2 sub-depth">
 							<a href="<c:url value="/menu001/sub002/GRG_001_201.do" />">국가전략</a>
-							<ul class="sub-menu">
+							<ul class="sub-menu hmake02">
 								<li><a href="<c:url value="/menu001/sub002/GRG_001_201.do" />">국가전략</a></li>
 								<li><a href="<c:url value="/menu001/sub002/GRG_001_202.do" />">5개년계획</a></li>
 							</ul>
@@ -187,7 +242,7 @@
 					<ul class="sub-menu" onmouseover="fnShow(3);" onmouseout="fnHide(3);" onfocus="fnShow(3)" onblur="fnHide(3);">
 						<li class="sub-width3-1 sub-depth">
 							<a href="<c:url value="/cmmn/commonBoardList.do?category_seq=3" />">회의자료</a>
-							<ul class="sub-menu">
+							<ul class="sub-menu hmake01">
 								<li><a href="<c:url value="/cmmn/commonBoardList.do?category_seq=3" />">회의자료(2013.03~)</a></li>
 								<li><a href="<c:url value="/cmmn/commonBoardList.do?category_seq=4" />">회의자료(~2013.02)</a></li>
 							</ul>
@@ -200,10 +255,10 @@
 				<li>
 					<a href="<c:url value="/menu004/sub001/GRG_004_101.do" />"><img id="mNavi5" src="<c:url value="/images/main/mNavi5.gif" />"
 						border="0" alt="위원회" onmouseover="fnShow(5);" onmouseout="fnHide(5);" onfocus="fnShow(5)" onblur="fnHide(5);" /></a>
-					<ul class="sub-menu" onmouseover="fnShow(5);" onmouseout="fnHide(5);" onfocus="fnShow(5)" onblur="fnHide(5);">
+						<ul class="sub-menu" onmouseover="fnShow(5);" onmouseout="fnHide(5);" onfocus="fnShow(5)" onblur="fnHide(5);">
 						<li><a href="<c:url value="/menu004/sub001/GRG_004_101.do" />">인사말</a></li>
 						<li class="sub-width5-2 sub-depth"><a href="<c:url value="/menu004/sub002/GRG_004_201.do" />">위원소개</a>
-							<ul>
+							<ul class="hmake02">
 								<li><a href="<c:url value="/menu004/sub002/GRG_004_201.do" />">당연직위원</a></li>
 								<li><a href="<c:url value="/menu004/sub002/GRG_004_202.do" />">민간위원</a></li>
 							</ul>
@@ -221,7 +276,7 @@
 			<!-- 전체 메뉴 -->
 			<div class="all">
 				<p class="naviOpenAll">
-					<img id="mNavi6" src="<c:url value="/images/main/mNavi_open.gif" />" border="0" alt="전체메뉴" onclick="fnNaviAllopenclose()" style="cursor: pointer;" />
+					<button type="button" style="cursor: pointer; width:84px; height:31px; padding:0px !important; background:url(<c:url value='/images/main/mNavi_open.gif' />) no-repeat; text-indent: -9000px;" id="mNavi6">전체메뉴</button>
 				</p>
 				<div class="divNaviAll" id="divNaviAll">
 					<ul class="ulAllNavi-1 ulAllN">
@@ -265,12 +320,12 @@
 							</ul>
 						</li>
 					</ul>
+					<p class="allc" title="전체메뉴 " style="position:absolute; right:0; top:0;"><button type="button">닫기</button></p>
 				</div>
+				
 			</div>
 			<!-- /전체 메뉴 -->
 
 		</div>
 
-		<div class="clear"></div>
-
-		<a href="#" id="greenGrowthBody" class="screen_out">본문</a>
+		<div class="clear"  id="greenGrowthBody"></div>

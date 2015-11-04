@@ -1,19 +1,19 @@
 /*----- ={ GENERIC } -----*/
 body {color:#000;font:12px/17px dotum;}
 
-table.line {border-top:2px solid #70e3d0; border-bottom:1px solid #70e3d0;font-size:12px; margin:10px 0 10px 0; width: 100%;}
-.line td {padding:5px; border-bottom:1px solid #70e3d0; border-right:1px solid #70e3d0; text-align:center; }
-.line th {padding:5px; border-bottom:1px solid #70e3d0; border-right:1px solid #70e3d0; font-weight:bold; text-align:center; }
+table.line {border-top:2px solid #026744; border-bottom:1px solid #026744;font-size:12px; margin:10px 0 10px 0; width: 100%;}
+.line td {padding:5px; border-bottom:1px solid #026744; border-right:1px solid #026744; text-align:center; }
+.line th {padding:5px; border-bottom:1px solid #026744; border-right:1px solid #026744; font-weight:bold; text-align:center; }
 .line td.r {border-right:0px}
-.line thead th {padding:5px; border-bottom:1px solid #70e3d0; border-right:1px solid #70e3d0; font-weight:bold; text-align:center; color:#05b99b; background-color:#d2e7e4;}
-.line tbody td {padding:5px; border-bottom:1px solid #70e3d0; border-right:1px solid #70e3d0; text-align:center; }
+.line thead th {padding:5px; border-bottom:1px solid #026744; border-right:1px solid #026744; font-weight:bold; text-align:center; color:#026744; background-color:#d2e7e4;}
+.line tbody td {padding:5px; border-bottom:1px solid #026744; border-right:1px solid #026744; text-align:center; }
 .line tbody td.r {border-right:0px; text-align:center; padding-left:10px;}
 .line tbody td.r2 {border-right:0px; text-align:left; padding-left:10px;}
 .line tbody th.r2 {border-right:0px; text-align:left; padding-left:10px;}
 .line tbody td.r3 {border-right:0px; text-align:right; padding-left:10px;}
 .line tbody th.r3 {border-right:0px; text-align:right; padding-left:10px;}
-.line tbody td.l {padding-left:10px; border-right:1px solid #70e3d0; text-align:left;}
-.line tbody th {padding:5px; border-bottom:1px solid #70e3d0; border-right:1px solid #70e3d0; font-weight:bold; text-align:center; color:#05b99b; background-color:#d2e7e4;}
+.line tbody td.l {padding-left:10px; border-right:1px solid #026744; text-align:left;}
+.line tbody th {padding:5px; border-bottom:1px solid #026744; border-right:1px solid #026744; font-weight:bold; text-align:center; color:#05b99b; background-color:#d2e7e4;}
 .line th.r {border-right:0px}
 
 div.memo {margin: 0px 0px 10px 0px; padding: 20px; border: 1px solid #ebebeb; background-color: #f5f9ee; line-height:18px; width:559px;}
@@ -25,7 +25,7 @@ p {margin:0 0 3px; font-size: 12px; line-height:18px; color:#555; letter-spacing
 ul, ol, li {list-style:none;padding:0;margin:0; }
 
 /* Hyperlinks */
-a, a:hover {text-decoration:none;color:#05b99b;}
+a, a:hover {text-decoration:none;color:#02845e;}
 
 /* Widget link and title format */
 .widget a {color:#777;}
@@ -370,7 +370,7 @@ a, a:hover {text-decoration:none;color:#05b99b;}
 #side_box ul ul li ul li{background:none;}
 #side_box .last{border-bottom:1px solid #ededed !important; margin-bottom:5px;}
 #side_box ul.side_1dh a{color:#666; width:180px; display:block; line-height:26px;}
-#side_box ul.side_1dh a:hover{color:#09b89d;}
+#side_box ul.side_1dh a:hover{color:#02855e;}
 #side_box ul.side_1dh .ontitle{font-size:14px;color:#088282;}
 #side_box ul.side_1dh .outtitle{font-size:14px;color:#444;}
 #side_box ul.side_1dh ul .onsubtit{font-size:12px;color:#444;}
@@ -495,7 +495,7 @@ a, a:hover {text-decoration:none;color:#05b99b;}
 
 	.post h1,.page h1 {font-family:dotum; font-size:24px; font-weight:bold;line-height:1em;}
 	.post h2,.page h2  {font-family:dotum; font-size:18px; font-weight:bold;line-height:1em;}
-	.post h3,.page h3  {font-family:dotum; font-size:16px; font-weight:bold; color: #0fb898;}
+	.post h3,.page h3  {font-family:dotum; font-size:16px; font-weight:bold; color: #02845e;}
 	.post h4,.page h4  {font-family:dotum; font-size:14px; font-weight:bold; line-height:16px; }
 	.post h5,.page h5  {font-family:dotum; font-size:16px;}
 	.post h6,.page h6  {font-family:dotum; font-size:14px;font-weight:bold;}
@@ -714,13 +714,13 @@ a, a:hover {text-decoration:none;color:#05b99b;}
 
 #nav li ul { display:none; }
 #nav li ul.on { display:block; margin-top:45px; }	
-#nav li ul { background-color:#09b89d;position:absolute;z-index:999;width:147px;padding:5px; }
+#nav li ul { background-color:#018471;position:absolute;z-index:999;width:147px;padding:5px; }
 #nav li ul li {float:none;margin:0;}
 #nav li ul li a{color:#fff;width:127px; font-weight:bold; padding:3px 10px;margin:0;height:16px;margin-top:4px;}
 #nav li ul li a.sf-with-ul { /* Dropdown li class which has another sub ul under */padding:3px 10px;}
 #nav li ul li a:hover, #nav li ul li a:focus {color:#ffee34;}
 
-#nav li ul ul {background:#018a75; margin:-0px 0 0 148px;padding-top:0; width:180px;}
+#nav li ul ul {background:#026c5b; margin:-0px 0 0 148px;padding-top:0; width:180px;}
 #nav li ul ul li a {color:#fff; width:180px;padding:3px;margin:0;height:16px;margin-top:5px;}
 /* List items that contains sub ul */
 

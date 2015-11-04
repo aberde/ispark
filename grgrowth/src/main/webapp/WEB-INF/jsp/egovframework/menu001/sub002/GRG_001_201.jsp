@@ -36,12 +36,7 @@
 			<img class="ban" alt="비전체계" longdesc="<c:url value="/longdesc/menu001/sub002/GRG_001_201_01.html" />" src="<c:url value="/images/menu001/sub002/strategy_ban_01.jpg" />" width="598" height="369" />
 		</p>
 		<p>
-			<a href="<c:url value="/download/090713NationalStrategy.zip" />"
-				class="su-button su-button-style-1 su-button-class"
-				style="background-color: #05b99b; border: 1px solid #04947c; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;"
-				target="_blank"><span
-				style="color: #e6f8f5; padding: 4px 13px; font-size: 13px; height: 13px; line-height: 13px; border-top: 1px solid #b4eae1; border-radius: 0px; text-shadow: -1px -1px 0 #04947c; -moz-border-radius: 0px; -moz-text-shadow: -1px -1px 0 #04947c; -webkit-border-radius: 0px; -webkit-text-shadow: -1px -1px 0 #04947c;">국가전략
-					다운로드</span></a>
+			<a href="<c:url value="/download/090713NationalStrategy.zip" />" target="_blank"><img src="<c:url value="/images/menu001/sub002/btn_down03.jpg" />" alt="국가전략 다운로드" /></a>
 		</p>
 		<p>&nbsp;</p>
 		<div class="clear"></div>

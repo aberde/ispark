@@ -45,38 +45,18 @@
 		<p>&nbsp;</p>
 		<p>1차(09~13)</p>
 		<p>
-			<a href="<c:url value="/download/0713-1summary.pdf" />"
-				class="su-button su-button-style-1 su-button-class"
-				style="background-color: #05b99b; border: 1px solid #04947c; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;"
-				target="_blank"><span
-				style="color: #e6f8f5; padding: 4px 13px; font-size: 13px; height: 13px; line-height: 13px; border-top: 1px solid #b4eae1; border-radius: 0px; text-shadow: -1px -1px 0 #04947c; -moz-border-radius: 0px; -moz-text-shadow: -1px -1px 0 #04947c; -webkit-border-radius: 0px; -webkit-text-shadow: -1px -1px 0 #04947c;"><b>1차
-						요약본 다운로드</b></span></a>
+			<a href="<c:url value="/download/0713-1summary.pdf" />" target="_blank"><img src="<c:url value="/images/menu001/sub002/btn_down01.jpg" />" alt="1차 요약본 다운로드" /></a>
 		</p>
 		<p>
-			<a href="<c:url value="/download/0713-2full.pdf" />"
-				class="su-button su-button-style-1 su-button-class"
-				style="background-color: #05b99b; border: 1px solid #04947c; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;"
-				target="_blank"><span
-				style="color: #e6f8f5; padding: 4px 13px; font-size: 13px; height: 13px; line-height: 13px; border-top: 1px solid #b4eae1; border-radius: 0px; text-shadow: -1px -1px 0 #04947c; -moz-border-radius: 0px; -moz-text-shadow: -1px -1px 0 #04947c; -webkit-border-radius: 0px; -webkit-text-shadow: -1px -1px 0 #04947c;"><b>1차
-						전체 다운로드 </b></span></a>
+			<a href="<c:url value="/download/0713-2full.pdf" />" target="_blank"><img src="<c:url value="/images/menu001/sub002/btn_down01_1.jpg" />" alt="1차 전체 다운로드" /></a>
 		</p>
 		<p>&nbsp;</p>
 		<p>2차(14~18)</p>
 		<p>
-			<a href="<c:url value="/download/140603-1summary.pdf" />"
-				class="su-button su-button-style-1 su-button-class"
-				style="background-color: #05b99b; border: 1px solid #04947c; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;"
-				target="_blank"><span
-				style="color: #e6f8f5; padding: 4px 13px; font-size: 13px; height: 13px; line-height: 13px; border-top: 1px solid #b4eae1; border-radius: 0px; text-shadow: -1px -1px 0 #04947c; -moz-border-radius: 0px; -moz-text-shadow: -1px -1px 0 #04947c; -webkit-border-radius: 0px; -webkit-text-shadow: -1px -1px 0 #04947c;"><b>2차
-						요약본 다운로드</b></span></a>
+			<a href="<c:url value="/download/140603-1summary.pdf" />" target="_blank"><img src="<c:url value="/images/menu001/sub002/btn_down02.jpg" />" alt="2차 요약본 다운로드" /></a>
 		</p>
 		<p>
-			<a href="<c:url value="/download/140603-2full.pdf" />"
-				class="su-button su-button-style-1 su-button-class"
-				style="background-color: #05b99b; border: 1px solid #04947c; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;"
-				target="_blank"><span
-				style="color: #e6f8f5; padding: 4px 13px; font-size: 13px; height: 13px; line-height: 13px; border-top: 1px solid #b4eae1; border-radius: 0px; text-shadow: -1px -1px 0 #04947c; -moz-border-radius: 0px; -moz-text-shadow: -1px -1px 0 #04947c; -webkit-border-radius: 0px; -webkit-text-shadow: -1px -1px 0 #04947c;"><b>2차
-							전체 다운로드 </b></span></a>
+			<a href="<c:url value="/download/140603-2full.pdf" />" target="_blank"><img src="<c:url value="/images/menu001/sub002/btn_down02_1.jpg" />" alt="2차 전체 다운로드" /></a>
 		</p>
 		<div class="clear"></div>
 	</div>

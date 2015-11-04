@@ -69,11 +69,7 @@
 				<a
 					href="<c:url value="/download/CI_PDF.zip" />"
 					onclick="javascript:_gaq.push(['_trackEvent','download','<c:url value="/download/CI_PDF.zip" />']);"
-					class="su-button su-button-style-1 su-button-class"
-					style="background-color: #05b99b; border: 1px solid #04947c; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;"
-					target="_blank"><span
-					style="color: #e6f8f5; padding: 4px 13px; font-size: 13px; height: 13px; line-height: 13px; border-top: 1px solid #b4eae1; border-radius: 0px; text-shadow: -1px -1px 0 #04947c; -moz-border-radius: 0px; -moz-text-shadow: -1px -1px 0 #04947c; -webkit-border-radius: 0px; -webkit-text-shadow: -1px -1px 0 #04947c;"><strong>녹색성장위원회
-							CI 사용 규정집</strong></span></a>
+					target="_blank"><img src="<c:url value="/images/menu004/sub005/btn_down_ci.jpg" />" alt="녹색성장위원회 CI 사용 규정집" /></a>
 			</p>
 		</div>
 	</div>

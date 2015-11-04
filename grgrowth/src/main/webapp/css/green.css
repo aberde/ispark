@@ -223,7 +223,7 @@ a, a:hover {text-decoration:none;color:#02845e;}
 	.home_center .news li{/*background:url("http://www.greengrowth.go.kr/wp-content/uploads/2013/12/home_c_dot.gif") no-repeat 0 50%;*/
 	                      line-height:25px;}
 	.home_center .news li a{padding-left:5px; color:#555;}
-	.home_center .news li a:hover{padding-left:5px; color:#09b89d;}
+	.home_center .news li a:hover{padding-left:5px; color:#02845e;}
 
 
 #home_container .home_right{float:right; width:312px;}

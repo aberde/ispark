@@ -190,7 +190,7 @@ $(function(){
 </script>
 <body>
 	<div id="greenGrowthIndex" class="screen_out2">
-		<a href="#greenGrowthBody" rel="bookmark">본문 바로가기</a>
+		<a href="#container" rel="bookmark">본문 바로가기</a>
 	</div>
 
 	<!-- wrapper -->
@@ -328,4 +328,4 @@ $(function(){
 
 		</div>
 
-		<div class="clear"  id="greenGrowthBody"></div>
+		<div class="clear"></div>

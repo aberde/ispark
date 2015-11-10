@@ -8,6 +8,9 @@
 	});
 </script>
 
+<div id="container">
+</div>
+
 <div id="home_container">
 
 	<div class="home_left">

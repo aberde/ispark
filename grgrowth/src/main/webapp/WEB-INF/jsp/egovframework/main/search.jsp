@@ -13,6 +13,9 @@
 	}
 </script>
 
+<div id="container">
+</div>
+
 <div id="sectionWrap">
 
 	<div id="sectionTab">

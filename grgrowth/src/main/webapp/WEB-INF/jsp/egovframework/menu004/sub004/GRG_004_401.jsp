@@ -7,7 +7,6 @@
 
 	<div id="bcrum">
 		<div id="post-196" class="post-196 page type-page status-publish hentry entry">
-			<h1 class="entry_title"></h1>
 			<div>
 				<p>&nbsp;</p>
 				<p>
@@ -21,7 +20,6 @@
 	</div>
 
 	<div class="post-196 page type-page status-publish hentry entry">
-		<h1 class="entry_title"></h1>
 		<div class="clear"></div>
 	</div>
 	<!-- /post -->

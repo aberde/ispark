@@ -71,11 +71,11 @@ public class AdminController {
 	public String adminLogin(@ModelAttribute("vo") AdminLoginVO vo, ModelMap model, HttpServletRequest request) throws Exception {
 	    logger.debug("Remote Addr : " + request.getRemoteAddr());
         
-//        if ( GrgrowthConstants.ADMIN_ACCESS_IP.containsKey(request.getRemoteAddr()) ) {
-//            return "/admin/adminLogin";
-//        } else {
+        if ( GrgrowthConstants.ADMIN_ACCESS_IP.containsKey(request.getRemoteAddr()) ) {
+            return "/admin/adminLogin";
+        } else {
             return "redirect:/error/ERROR_ACCESS.html";
-//        }
+        }
 	    
 //	    return "/admin/adminLogin";
 	}

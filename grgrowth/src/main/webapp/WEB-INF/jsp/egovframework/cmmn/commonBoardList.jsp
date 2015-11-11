@@ -75,7 +75,6 @@
 						<div class="clear"></div>
 						<span class="targetDate">
 							<a href="<c:url value="/cmmn/commonBoardList.do?category_seq=${ board.category_seq }&pageIndex=${ paginationInfo.currentPageNo }" />" rel="bookmark" title="<c:out value="${ board.category_nm }의 글 모두 보기" />" ><c:out value="${ board.category_nm }" /></a>&nbsp;&nbsp;&nbsp;
-							<a href="<c:url value="/cmmn/commonBoardView.do?category_seq=${ board.category_seq }&board_seq=${ board.board_seq }&pageIndex=${ paginationInfo.currentPageNo }" />" rel="bookmark" title="<c:out value="${ board.title }" /> 상세화면으로 이동" ></a>
 						</span>
 						<span class="targetCategory">
 							<c:out value="${ board.regdate }" />&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;

@@ -54,7 +54,7 @@
 				</div>
 	
 				<div class="foo_widget1_right">
-					<a title="pdf 파일보기" href="<c:url value="/download/2015-584WA.pdf" />" target="_blank"><img alt="(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크 인증마크(WA인증마크)" src="<c:url value="/images/main/wa.png" />" width="100" /></a>
+					<a title="새창" href="http://wa.or.kr/waMark/status_new.asp?op=1&wd=%EB%85%B9%EC%83%89%EC%84%B1%EC%9E%A5%EC%9C%84%EC%9B%90%ED%9A%8C" target="_blank"><img alt="(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크 인증마크(WA인증마크)" src="<c:url value="/images/main/wa.png" />" width="100" /></a>
 				</div>
 				
 				<div class="foo_widget4_left2">

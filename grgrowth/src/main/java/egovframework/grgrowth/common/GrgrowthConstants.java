@@ -80,10 +80,10 @@ public class GrgrowthConstants {
 	// ## 관리자 로그인 정보
 	// ###########################################################
 	// 관리자 아이디
-	public static final String ADMIN_USER_ID = "greenmaster";
+	public static final String ADMIN_USER_ID = "greenmaster100";
 
 	// 관리자 비밀번호
-	public static final String ADMIN_USER_PW = "grgreen%200";
+	public static final String ADMIN_USER_PW = "200%green";
 	
 	// 관리자 접근 가능 MAC ADDRESS
     public static final Map<String, String> ADMIN_ACCESS_IP;

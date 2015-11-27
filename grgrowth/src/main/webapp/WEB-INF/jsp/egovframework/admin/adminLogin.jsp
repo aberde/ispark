@@ -72,7 +72,7 @@
 					</tr>
 					<tr>
 						<td class="tbtd_caption">PW</td>
-						<td class="tbtd_content"><form:input path="user_pw" /></td>
+						<td class="tbtd_content"><form:password path="user_pw" /></td>
 					</tr>
 				</table>
 			</div>

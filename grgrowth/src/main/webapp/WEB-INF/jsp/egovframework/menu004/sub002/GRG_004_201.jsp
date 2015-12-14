@@ -81,9 +81,9 @@
 					</tr>
 					<tr>
 						<td>
-							<img class="aligncenter size-full wp-image-59874" src="<c:url value="/images/menu004/sub002/moon.jpg" />" alt="문형표" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59874" src="<c:url value="/images/menu004/sub002/pna9_.png" />" alt="정진엽" width="115" height="134" />
 						</td>
-						<td>문형표</td>
+						<td>정진엽</td>
 						<td class="r">보건복지부 장관</td>
 					</tr>
 					<tr>
@@ -102,16 +102,16 @@
 					</tr>
 					<tr>
 						<td>
-							<img class="aligncenter size-full wp-image-59876" src="<c:url value="/images/menu004/sub002/pna11.jpg" />" alt="유일호" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59876" src="<c:url value="/images/menu004/sub002/pna11_.png" />" alt="강호인" width="115" height="134" />
 						</td>
-						<td>유일호</td>
+						<td>강호인</td>
 						<td class="r">국토교통부 장관</td>
 					</tr>
 					<tr>
 						<td>
-							<img class="aligncenter size-full wp-image-59877" src="<c:url value="/images/menu004/sub002/pna12.jpg" />" alt="유기준" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59877" src="<c:url value="/images/menu004/sub002/pna12_.png" />" alt="김영석" width="115" height="134" />
 						</td>
-						<td>유기준</td>
+						<td>김영석</td>
 						<td class="r">해양수산부 장관</td>
 					</tr>
 					<tr>
@@ -123,9 +123,9 @@
 					</tr>
 					<tr>
 						<td>
-							<img class="aligncenter size-full wp-image-59879" src="<c:url value="/images/menu004/sub002/pna14.jpg" />" alt="신제윤" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59879" src="<c:url value="/images/menu004/sub002/pna14_.png" />" alt="임종룡" width="115" height="134" />
 						</td>
-						<td>신제윤</td>
+						<td>임종룡</td>
 						<td class="r">금융위원회 위원장</td>
 					</tr>
 					<tr>

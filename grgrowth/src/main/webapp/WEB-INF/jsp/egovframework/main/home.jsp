@@ -5,6 +5,9 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 // 		window.open("<c:url value="/main/noticePop.do" />", "noticePop", "width=260, height=226, scrollbars=0");
+		$(".bxslider").bxSlider({
+			auto: true
+		});
 	});
 </script>
 
@@ -89,7 +92,10 @@
 		</div>
 
 		<div class="home_r_bn2">
-			<a href="<c:url value="/download/green-eng-bro.pdf" />" target="_blank"><img src="<c:url value="/images/main/e-book_22.jpg" />" alt="GREEN GORWTH KOREA Now & the Future www.greengrowth.go.kr" /></a>
+			<ul class="bxslider">
+				<li><a href="<c:url value="/download/green-eng-bro.pdf" />" target="_blank"><img src="<c:url value="/images/main/e-book_22.jpg" />" alt="GREEN GORWTH KOREA Now & the Future www.greengrowth.go.kr" /></a></li>
+				<li><a href="http://www.korea.kr/gonggam/fcatalog/ecatalog.jsp?Dir=705" target="_blank"><img src="<c:url value="/images/main/e-book.png" />" alt="녹색성장 정책 추진 4년, 도전과 성과 녹색성장 더 큰 대한민국 e-Book 바로가기" /></a></li>
+			</ul>
 		</div>
 
 	</div>

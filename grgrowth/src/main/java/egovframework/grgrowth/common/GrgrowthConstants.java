@@ -89,11 +89,7 @@ public class GrgrowthConstants {
     public static final Map<String, String> ADMIN_ACCESS_IP;
     static {
         Map<String, String> dataMap = new LinkedHashMap<String, String>();
-//        DATAMAP.PUT("10-78-D2-94-00-F5", "");
-//        dataMap.put("10-78-D2-94-00-86", "");
-        dataMap.put("125.128.67.138", "");
-        dataMap.put("172.20.12.164", "");
-        dataMap.put("172.20.12.166", "");
+        dataMap.put("125.128.67.138", "");  // 녹색성장위원회
         dataMap.put("61.34.132.197", "");  // ISPARK
         dataMap.put("121.156.215.161", "");  // 웹디
         dataMap.put("61.101.87.228", "");  // 개발자

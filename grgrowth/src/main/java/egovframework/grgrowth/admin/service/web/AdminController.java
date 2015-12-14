@@ -71,13 +71,11 @@ public class AdminController {
 	public String adminLogin(@ModelAttribute("vo") AdminLoginVO vo, ModelMap model, HttpServletRequest request) throws Exception {
 	    logger.debug("Remote Addr : " + request.getRemoteAddr());
         
-        if ( GrgrowthConstants.ADMIN_ACCESS_IP.containsKey(request.getRemoteAddr()) ) {
+        if ( GrgrowthConstants.ADMIN_ACCESS_IP.containsKey(request.getRemoteAddr()) ) {  // IP확인하여 관리자 페이지 접근이 허용된 IP인지 확인 
             return "/admin/adminLogin";
-        } else {
+        } else {  // 관리자 페이지 접근 불가
             return "redirect:/error/ERROR_ACCESS.html";
         }
-	    
-//	    return "/admin/adminLogin";
 	}
 	
 	/** 
@@ -89,23 +87,15 @@ public class AdminController {
 	 */
 	@RequestMapping(value = "/admin/adminLoginProc.do")
 	public String adminLoginProc(@ModelAttribute("vo") AdminLoginVO vo, ModelMap model, HttpServletRequest request) throws Exception {
-	    logger.debug("Remote Addr : " + request.getRemoteAddr());
-	    
-	    try {
-            Util.getMACAddress(request.getRemoteAddr());
-        } catch ( Exception e ) {
-            e.printStackTrace();
-        }
-	    
-	    if ( !GrgrowthConstants.ADMIN_ACCESS_IP.containsKey(request.getRemoteAddr()) ) {
+	    if ( !GrgrowthConstants.ADMIN_ACCESS_IP.containsKey(request.getRemoteAddr()) ) {  // IP확인하여 관리자 페이지 접근이 허용된 IP인지 확인 
             vo.setErr_msg(GrgrowthConstants.ERR_ADMIN_ACCESS_FALSE);
             return "/admin/adminLogin";
         } else if ( GrgrowthConstants.ADMIN_USER_ID.equals(vo.getUser_id())
-	            && GrgrowthConstants.ADMIN_USER_PW.equals(vo.getUser_pw()) ) {
+	            && GrgrowthConstants.ADMIN_USER_PW.equals(vo.getUser_pw()) ) {  // 지정된 ID, PW를 확인후 관리자 페이지 접근 
 	        request.getSession().setAttribute(GrgrowthConstants.SESSION_USER_ID, vo.getUser_id());
 	        
 	        return "redirect:/admin/boardList.do";
-	    } else {
+	    } else {  // 관리자 페이지 접근 불가
 	        vo.setErr_msg(GrgrowthConstants.ERR_LOGIN_FALSE);
 	        return "/admin/adminLogin";
 	    }

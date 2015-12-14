@@ -23,6 +23,7 @@
 	<link rel="stylesheet" type="text/css" href="<c:url value="/css/style.css" />">
 	<link rel="stylesheet" type="text/css" href="<c:url value="/css/layout.css" />">
 	<link rel="stylesheet" type="text/css" href="<c:url value="/css/green.css" />">
+	<link rel="stylesheet" type="text/css" href="<c:url value="/js/jquery.bxslider/jquery.bxslider.css" />">
 	<style type="text/css">
 		#navcats .nav_cats .sub-menu {
 			display: block;
@@ -55,6 +56,7 @@
 	</script>
 	<script type="text/javascript" src="<c:url value="/js/jquery-1.11.3.js" />"></script>
 	<script type="text/javascript" src="<c:url value="/js/jQuery.print.js" />"></script>
+	<script type="text/javascript" src="<c:url value="/js/jquery.bxslider/jquery.bxslider.js" />"></script>
 	<script type="text/javascript" src="<c:url value="/js/validator.js" />"></script>
 	<script type="text/javascript">
 		/**

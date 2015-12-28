@@ -25,17 +25,8 @@
 					</tr>
 				</thead>
 				<tbody>
-<!-- 					<tr> -->
-<!-- 						<td rowspan="1"></td> -->
-<!-- 						<td>위원장</td> -->
-<!-- 						<td> -->
-<%-- 							<img class="aligncenter size-full wp-image-59883" title="25" alt="" src="<c:url value="/images/menu004/sub002/25.jpg" />" width="115" height="134" /> --%>
-<!-- 						</td> -->
-<!-- 						<td>이승훈</td> -->
-<!-- 						<td class="r">서울대 경제학부 명예교수</td> -->
-<!-- 					</tr> -->
 					<tr>
-						<td rowspan="5">녹색성장전략</td>
+						<td rowspan="6">녹색성장전략</td>
 						<td>전략</td>
 						<td>
 							<img class="aligncenter size-full wp-image-59884" alt="이지순" src="<c:url value="/images/menu004/sub002/min27.jpg" />" width="115" height="134" />
@@ -52,14 +43,6 @@
 						<td class="r">서울대 법과대 교수</td>
 					</tr>
 					<tr>
-						<td>국제협력</td>
-						<td>
-							<img class="aligncenter size-full wp-image-59886" alt="차문중" src="<c:url value="/images/menu004/sub002/pmin2.jpg" />" width="115" height="134" />
-						</td>
-						<td>차문중</td>
-						<td class="r">한국개발연구원 선임연구위원</td>
-					</tr>
-					<tr>
 						<td>NGO · 언론</td>
 						<td>
 							<img class="aligncenter size-full wp-image-59887" alt="김재옥" src="<c:url value="/images/menu004/sub002/pmin3.jpg" />" width="115" height="134" />
@@ -68,31 +51,31 @@
 						<td class="r">한국기후환경네트워크 상임대표</td>
 					</tr>
 					<tr>
-						<td>언론 · 학교</td>
+						<td></td>
 						<td>
-							<img class="aligncenter size-full wp-image-59888" alt="한삼희" src="<c:url value="/images/menu004/sub002/min26.jpg" />" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59888" alt="김수이" src="<c:url value="/images/menu004/sub002/pmin20.jpg" />" width="115" height="134" />
 						</td>
-						<td>한삼희</td>
-						<td class="r">조선일보 논설위원</td>
+						<td>김수이</td>
+						<td class="r">홍익대 상경대학 교수</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<img class="aligncenter size-full wp-image-59888" alt="성창모" src="<c:url value="/images/menu004/sub002/pmin22.jpg" />" width="115" height="134" />
+						</td>
+						<td>성창모</td>
+						<td class="r">녹색기술센터 소장</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<img class="aligncenter size-full wp-image-59888" alt="조성봉" src="<c:url value="/images/menu004/sub002/pmin24.jpg" />" width="115" height="134" />
+						</td>
+						<td>조성봉</td>
+						<td class="r">숭실대 경제학과 교수</td>
 					</tr>
 					<tr>
 						<td rowspan="5">기후변화대응</td>
-						<td>기후</td>
-						<td>
-							<img class="aligncenter size-full wp-image-59891" alt="정진승" src="<c:url value="/images/menu004/sub002/pmin7.jpg" />" width="115" height="134" />
-						</td>
-						<td>정진승</td>
-						<td class="r">APEC 기후센터 소장</td>
-					</tr>
-					<tr>
-						<td>기후</td>
-						<td>
-							<img class="aligncenter size-full wp-image-59890" alt="김정인" src="<c:url value="/images/menu004/sub002/pmin6.jpg" />" width="115" height="134" />
-						</td>
-						<td>김정인</td>
-						<td class="r">중앙대 경영경제대 교수</td>
-					</tr>
-					<tr>
 						<td>기후</td>
 						<td>
 							<img class="aligncenter size-full wp-image-59889" alt="한화진" src="<c:url value="/images/menu004/sub002/pna21.jpg" />" width="115" height="134" />
@@ -115,6 +98,22 @@
 						</td>
 						<td>신동천</td>
 						<td class="r">연세대 경제학부 교수</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<img class="aligncenter size-full wp-image-59893" alt="김재영" src="<c:url value="/images/menu004/sub002/pmin21.jpg" />" width="115" height="134" />
+						</td>
+						<td>김재영</td>
+						<td class="r">서울대 건설환경공학부 교수</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<img class="aligncenter size-full wp-image-59893" alt="정장표" src="<c:url value="/images/menu004/sub002/pmin23.jpg" />" width="115" height="134" />
+						</td>
+						<td>정장표</td>
+						<td class="r">경성대 건설환경도시공학부 교수</td>
 					</tr>
 					<tr>
 						<td rowspan="5">에너지</td>
@@ -148,7 +147,7 @@
 							<img class="aligncenter size-full wp-image-59897" alt="손양훈" src="<c:url value="/images/menu004/sub002/pmin13.jpg" />" width="115" height="134" />
 						</td>
 						<td>손양훈</td>
-						<td class="r">에너지경제연구원장</td>
+						<td class="r">인천대 경제학과 교수</td>
 					</tr>
 					<tr>
 						<td>산업</td>
@@ -160,14 +159,6 @@
 					</tr>
 					<tr>
 						<td rowspan="5">녹색기술산업</td>
-						<td>기술</td>
-						<td>
-							<img class="aligncenter size-full wp-image-59900" alt="문승일" src="<c:url value="/images/menu004/sub002/pmin16.jpg" />" width="115" height="134" />
-						</td>
-						<td>문승일</td>
-						<td class="r">서울대 전기공학부 교수</td>
-					</tr>
-					<tr>
 						<td>산업</td>
 						<td>
 							<img class="aligncenter size-full wp-image-59899" alt="신미남" src="<c:url value="/images/menu004/sub002/min28.jpg" />" width="115" height="134" />
@@ -198,6 +189,14 @@
 						</td>
 						<td>김도년</td>
 						<td class="r">성균관대 건축학과 교수</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<img class="aligncenter size-full wp-image-59903" alt="홍준희" src="<c:url value="/images/menu004/sub002/pmin25.jpg" />" width="115" height="134" />
+						</td>
+						<td>홍준희</td>
+						<td class="r">가천대 에너지 IT과 교수</td>
 					</tr>
 				</tbody>
 			</table>

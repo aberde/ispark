@@ -32,7 +32,7 @@
 녹색제품의 보급·확대, 녹색생활 실천, 국제기구 설립 및 유치 등
 많은 성과를 거두었습니다.
 
- 이번에 새로 출범한 4기 녹색성장위원회에서는 창의와 융합으로
+ 녹색성장위원회에서는 창의와 융합으로
 새로운 시장과 일자리를 창출하는 창조경제 구현에 초점을 맞추고
 녹색성장을 한 단계 더 높은 차원으로 발전시켜 나가겠습니다.
 창조경제를 통한 녹색성장은 지속 가능한 성장을 실현하고,
@@ -78,7 +78,7 @@
 						</td>
 						<td>
 
-							<ul>
+							<ul style="margin-left: 10px;">
 								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">성균관대학원 법학(석사)</span></li>
 								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">성균관대학교 법학과 졸업</span></li>
 								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">경기고등학교 졸업</span></li>
@@ -112,35 +112,41 @@
 							</p>
 						</td>
 					</tr>
-<!-- 					<tr> -->
-<!-- 						<td class="d2" style="vertical-align: top;"> -->
-<!-- 							<p style="text-align: center;"> -->
-<%-- 								<img title="이승훈" src="<c:url value="/images/menu004/sub001/lsh.bmp" />" alt="" /> --%>
-<!-- 							</p> -->
-<!-- 							<p style="text-align: center;"> -->
-<!-- 								<strong>이승훈(李承勳)</strong> -->
-<!-- 							</p> -->
-<!-- 						</td> -->
-<!-- 						<td> -->
-<!-- 							<ul> -->
-<!-- 								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">서울대학교 공과대학 졸업 전자공학과 학사</span></li> -->
-<!-- 								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">미국 노스웨스턴대학교 경제학과 박사</span></li> -->
-<!-- 								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">現 녹색성장위원회 위원장</span></li> -->
-<!-- 								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">現 서울대학교 경제학부 명예교수</span></li> -->
-<!-- 								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">사단법인 전력산업연구회 이사장(회장)</span></li> -->
-<!-- 								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">산업자원부 전기위원회 위원장</span></li> -->
-<!-- 								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">한국계량경제학회 회장</span></li> -->
-<!-- 								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">한국산업조직학회 회장</span></li> -->
-<!-- 								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">서울대학교 사회과학연구원 원장</span></li> -->
-<!-- 								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">서울대학교 경제학부 교수</span></li> -->
-<!-- 							</ul> -->
-<!-- 							<p> -->
-<!-- 								<span style="font-family: Consolas, Monaco, monospace;"> -->
-<!-- 									<span style="font-size: 12px; line-height: 18px;"><br /></span> -->
-<!-- 								</span> -->
-<!-- 							</p> -->
-<!-- 						</td> -->
-<!-- 					</tr> -->
+				</tbody>
+			</table>
+			<h1>
+				<img src="<c:url value="/images/menu004/sub001/greeting_ttl.jpg" />" alt="민간위원장 약력" />
+			</h1>
+			<table>
+				<tbody>
+					<tr>
+						<td class="d" style="vertical-align: top;">
+							<p style="text-align: center;">
+								<img class="aligncenter size-full wp-image-59907" src="<c:url value="/images/menu004/sub001/min27.jpg"/>" alt="이지순" width="147" height="166" />
+							</p>
+							<p style="text-align: center;">
+								<strong>이지순(李之舜)</strong>
+							</p>
+						</td>
+						<td>
+
+							<ul style="margin-left: 10px;">
+								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">시카고대학교 경제학 박사</span></li>
+								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">서울대학교 상과대학 학사</span></li>
+								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">경복고등학교 졸업</span></li>
+								<br />
+								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">-</span></li>
+								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">(현) 서울대학교 경제학부 명예교수</span></li>
+								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">(현) 제45대 한국경제학회장</span></li>
+								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">제2~5기 녹색성장위워회 민간위원</span></li>
+								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">서울대학교 경제학부 조교수, 부교수, 교수 역임</span></li>
+								<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">미국 브라운 대학교 조교수 역임</span></li>
+							</ul>
+							<p>
+								<span style="font-family: Consolas, Monaco, monospace;"><span style="font-size: 12px; line-height: 18px;"><br /> </span></span>
+							</p>
+						</td>
+					</tr>
 				</tbody>
 			</table>
 		</div>

@@ -26,15 +26,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td rowspan="6">녹색성장전략</td>
-						<td>전략</td>
-						<td>
-							<img class="aligncenter size-full wp-image-59884" alt="이지순" src="<c:url value="/images/menu004/sub002/min27.jpg" />" width="115" height="134" />
-						</td>
-						<td>이지순</td>
-						<td class="r">서울대 경제학부 교수</td>
-					</tr>
-					<tr>
+						<td rowspan="5">녹색성장전략</td>
 						<td>법제</td>
 						<td>
 							<img class="aligncenter size-full wp-image-59885" alt="조홍식" src="<c:url value="/images/menu004/sub002/pmin1.jpg" />" width="115" height="134" />

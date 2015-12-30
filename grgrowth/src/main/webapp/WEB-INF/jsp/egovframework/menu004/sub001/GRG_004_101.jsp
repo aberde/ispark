@@ -70,7 +70,7 @@
 					<tr>
 						<td class="d" style="vertical-align: top;">
 							<p style="text-align: center;">
-								<img class="aligncenter size-full wp-image-59907" src="<c:url value="/images/menu004/sub001/h.jpg"/>" alt="황안교" width="147" height="166" />
+								<img class="aligncenter size-full wp-image-59907" src="<c:url value="/images/menu004/sub001/h.jpg"/>" alt="황교안" width="147" height="166" />
 							</p>
 							<p style="text-align: center;">
 								<strong>황교안(黃敎安)</strong>

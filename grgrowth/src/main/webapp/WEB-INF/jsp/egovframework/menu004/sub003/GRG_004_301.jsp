@@ -14,6 +14,12 @@
 				</h1>
 				<ul>
 					<ul>
+						<img class="alignnone size-full wp`-image-614" src="<c:url value="/images/menu004/sub003/history_sttl_2015.jpg" />" alt="2015" width="80" height="38" />
+						<ul>
+							<li>2015.12.22 제6기 1차 전체회의 개최</li>
+							<li>2015.06.29 제5기 3차 전체회의 개최</li>
+							<li>2015.04.08 제5기 2차 전체회의 개최</li>
+						</ul>
 						<img class="alignnone size-full wp`-image-614" src="<c:url value="/images/menu004/sub003/sttl_2014.jpg" />" alt="2014" width="80" height="38" />
 						<ul>
 							<li>2014.12.19 제5기 1차 전체회의 개최</li>

@@ -25,9 +25,9 @@
 				<tbody>
 					<tr>
 						<td width="120">
-							<img class="aligncenter size-full wp-image-59865" src="<c:url value="/images/menu004/sub002/01.jpg" />" alt="최경환" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59865" src="<c:url value="/images/menu004/sub002/01.jpg" />" alt="유일호" width="115" height="134" />
 						</td>
-						<td width="170">최경환</td>
+						<td width="170">유일호</td>
 						<td class="r" width="300">기획재정부 장관</td>
 					</tr>
 					<tr>
@@ -39,9 +39,9 @@
 					</tr>
 					<tr>
 						<td>
-							<img class="aligncenter size-full wp-image-59867" src="<c:url value="/images/menu004/sub002/03.jpg" />" alt="황우여" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59867" src="<c:url value="/images/menu004/sub002/03.jpg" />" alt="이준식" width="115" height="134" />
 						</td>
-						<td>황우여</td>
+						<td>이준식</td>
 						<td class="r">교육부 장관</td>
 					</tr>
 					<tr>
@@ -53,9 +53,9 @@
 					</tr>
 					<tr>
 						<td>
-							<img class="aligncenter size-full wp-image-59869" src="<c:url value="/images/menu004/sub002/04.jpg" />" alt="정종섭" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59869" src="<c:url value="/images/menu004/sub002/04.jpg" />" alt="홍윤식" width="115" height="134" />
 						</td>
-						<td>정종섭</td>
+						<td>홍윤식</td>
 						<td class="r">행정자치부 장관</td>
 					</tr>
 					<tr>
@@ -74,9 +74,9 @@
 					</tr>
 					<tr>
 						<td>
-							<img class="aligncenter size-full wp-image-59872" src="<c:url value="/images/menu004/sub002/pna8.jpg" />" alt="윤상직" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59872" src="<c:url value="/images/menu004/sub002/pna8.jpg" />" alt="주형환" width="115" height="134" />
 						</td>
-						<td>윤상직</td>
+						<td>주형환</td>
 						<td class="r">산업통상자원부 장관</td>
 					</tr>
 					<tr>
@@ -95,9 +95,9 @@
 					</tr>
 					<tr>
 						<td>
-							<img class="aligncenter size-full wp-image-59875" src="<c:url value="/images/menu004/sub002/06.jpg" />" alt="김희정" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59875" src="<c:url value="/images/menu004/sub002/06.jpg" />" alt="강은희" width="115" height="134" />
 						</td>
-						<td>김희정</td>
+						<td>강은희</td>
 						<td class="r">여성가족부 장관</td>
 					</tr>
 					<tr>

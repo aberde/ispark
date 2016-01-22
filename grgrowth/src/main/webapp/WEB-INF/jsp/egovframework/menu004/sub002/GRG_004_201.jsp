@@ -130,9 +130,9 @@
 					</tr>
 					<tr>
 						<td>
-							<img class="aligncenter size-full wp-image-59880" src="<c:url value="/images/menu004/sub002/08.jpg" />" alt="추경호" width="115" height="134" />
+							<img class="aligncenter size-full wp-image-59880" src="<c:url value="/images/menu004/sub002/08.jpg" />" alt="이석준" width="115" height="134" />
 						</td>
-						<td>추경호</td>
+						<td>이석준</td>
 						<td class="r">국무조정실 장관</td>
 					</tr>
 				</tbody>

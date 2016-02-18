@@ -15,32 +15,26 @@
  */
 package egovframework.grgrowth.admin.service;
 
-/**
- * 사용자정보를 저장하기 위한 VO클래스
- * 
- * @author  표준프레임워크센터
- * @since 2014.01.24
- * @version 1.0
- * @see 
- * <pre>
- *  == 개정이력(Modification Information) ==
- *   
- *          수정일          수정자           수정내용
- *  ----------------    ------------    ---------------------------
- *   2014.01.24        표준프레임워크센터          최초 생성
- * 
- * </pre>
- */
-public class AdminLoginVO {
-	
-    /** 사용자 아이디 */
-	private String id;
+import egovframework.grgrowth.common.SearchVO;
 
+/**
+ * 비밀번호 변경이력 관리를 저장하기 위한 VO클래스
+ */
+public class PasswordChangeManageVO extends SearchVO {
+
+	private static final long serialVersionUID = 1L;
+	
+	/** 사용자 아이디 */
+	private String id;
+	
 	/** 사용자 비밀번호 */
 	private String password;
 	
-	/** 에러 메세지 */
-	private String err_msg;
+	/** 등록일 */
+	private String regdate;
+	
+	/** 수정일 */
+	private String upddate;
 
     public String getId() {
         return id;
@@ -58,12 +52,20 @@ public class AdminLoginVO {
         this.password = password;
     }
 
-    public String getErr_msg() {
-        return err_msg;
+    public String getRegdate() {
+        return regdate;
     }
 
-    public void setErr_msg(String err_msg) {
-        this.err_msg = err_msg;
+    public void setRegdate(String regdate) {
+        this.regdate = regdate;
+    }
+
+    public String getUpddate() {
+        return upddate;
+    }
+
+    public void setUpddate(String upddate) {
+        this.upddate = upddate;
     }
 
 }

@@ -35,6 +35,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.multipart.MultipartFile;
 
 import egovframework.grgrowth.admin.service.AdminLoginVO;
+import egovframework.grgrowth.admin.service.AdminService;
+import egovframework.grgrowth.admin.service.PasswordChangeManageVO;
 import egovframework.grgrowth.common.GrgrowthConstants;
 import egovframework.grgrowth.common.Util;
 import egovframework.grgrowth.common.service.CommonBoardVO;
@@ -54,6 +56,9 @@ public class AdminController {
     @Resource(name = "fileUploadProperties")
     Properties fileUploadProperties;
 
+    @Resource(name = "adminService")
+    private AdminService adminService;
+    
 	@Resource(name = "commonService")
 	private CommonService commonService;
 
@@ -90,14 +95,15 @@ public class AdminController {
 	    if ( !GrgrowthConstants.ADMIN_ACCESS_IP.containsKey(request.getRemoteAddr()) ) {  // IP확인하여 관리자 페이지 접근이 허용된 IP인지 확인 
             vo.setErr_msg(GrgrowthConstants.ERR_ADMIN_ACCESS_FALSE);
             return "/admin/adminLogin";
-        } else if ( GrgrowthConstants.ADMIN_USER_ID.equals(vo.getUser_id())
-	            && GrgrowthConstants.ADMIN_USER_PW.equals(vo.getUser_pw()) ) {  // 지정된 ID, PW를 확인후 관리자 페이지 접근 
-	        request.getSession().setAttribute(GrgrowthConstants.SESSION_USER_ID, vo.getUser_id());
-	        
-	        return "redirect:/admin/boardList.do";
-	    } else {  // 관리자 페이지 접근 불가
-	        vo.setErr_msg(GrgrowthConstants.ERR_LOGIN_FALSE);
-	        return "/admin/adminLogin";
+        } else {
+            if ( adminService.loginCheck(vo) > 0 ) {  //  ID, PW를 확인후 관리자 페이지 접근 
+    	        request.getSession().setAttribute(GrgrowthConstants.SESSION_USER_ID, vo.getId());
+    	        
+    	        return "redirect:/admin/boardList.do";
+    	    } else {  // 관리자 페이지 접근 불가
+    	        vo.setErr_msg(GrgrowthConstants.ERR_LOGIN_FALSE);
+    	        return "/admin/adminLogin";
+    	    }
 	    }
 	}
 	
@@ -322,5 +328,99 @@ public class AdminController {
         
         commonService.boardDelete(vo);
         return "redirect:/admin/boardList.do";
+    }
+    
+    /** 
+     * 비밀번호 변경이력 관리 > 목록
+     * @param vo
+     * @param model
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping(value = "/admin/passwordChangeManage/list.do")
+    public String passwordChangeManageList(@ModelAttribute("vo") PasswordChangeManageVO vo, ModelMap model, HttpServletRequest request) throws Exception {
+        if ( Util.getSessionUser_id(request) == null ) {
+            return "redirect:/admin/adminLogin.do";
+        }
+        
+        // ####################################################################
+        // ## 페이징 설정
+        // ####################################################################
+        // currentPageNo : 현재 페이지 번호
+        // recordCountPerPage : 한 페이지당 게시되는 게시물 건 수 (=pageUnit)
+        // pageSize : 페이지 리스트에 게시되는 페이지 건수
+        // totalRecordCount : 전체 게시물 건 수
+        // pageUnit과 pageSize는 context-properties.xml에서 설정
+        vo.setPageUnit(propertiesService.getInt("pageUnit"));
+        vo.setPageSize(propertiesService.getInt("pageSize"));
+
+        PaginationInfo paginationInfo = new PaginationInfo();
+
+        paginationInfo.setCurrentPageNo(vo.getPageIndex());
+        paginationInfo.setRecordCountPerPage(vo.getPageUnit());
+        paginationInfo.setPageSize(vo.getPageSize());
+
+        vo.setFirstIndex(paginationInfo.getFirstRecordIndex());
+        vo.setLastIndex(paginationInfo.getLastRecordIndex());
+        vo.setRecordCountPerPage(paginationInfo.getRecordCountPerPage());
+        // ####################################################################
+
+        // ####################################################################
+        // ## 페이징
+        // ####################################################################
+        int totCnt = adminService.passwordChangeManageListTotCnt(vo);
+        paginationInfo.setTotalRecordCount(totCnt);
+
+        model.addAttribute("paginationInfo", paginationInfo);
+        // ####################################################################
+
+        // ####################################################################
+        // ## 목록
+        // ####################################################################
+        List<PasswordChangeManageVO> passwordChangeManageList = adminService.passwordChangeManageList(vo);
+        model.addAttribute("passwordChangeManageList", passwordChangeManageList);
+        // ####################################################################
+        
+        // 검색구분
+        model.addAttribute("search_section", GrgrowthConstants.SEARCH_SECTION);
+
+        return "/admin/passwordChangeManage/list";
+    }
+    
+    /** 
+     * 비밀번호 변경이력 관리 > 비밀번호 변경 화면
+     * @param model
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping(value = "/admin/passwordChangeManage/update.do")
+    public String passwordChangeManageUpdate(@ModelAttribute("vo") PasswordChangeManageVO vo, ModelMap model, HttpServletRequest request) throws Exception {
+        if ( Util.getSessionUser_id(request) == null ) {
+            return "redirect:/admin/adminLogin.do";
+        }
+        
+        return "/admin/passwordChangeManage/update";
+    }
+    
+    /** 
+     * 비밀번호 변경이력 관리 > 비밀번호 변경 처리
+     * @param model
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping(value = "/admin/passwordChangeManage/updateProc.do")
+    public String passwordChangeManageUpdateProc(@ModelAttribute("vo") PasswordChangeManageVO vo, ModelMap model, HttpServletRequest request) throws Exception {
+        if ( Util.getSessionUser_id(request) == null ) {
+            return "redirect:/admin/adminLogin.do";
+        }
+        
+        // ####################################################################
+        // ## 비밀번호 변경
+        // ####################################################################
+        vo.setId(Util.getSessionUser_id(request));
+        adminService.passwordChangeManageUpdate(vo);
+        // ####################################################################
+        
+        return "redirect:/admin/passwordChangeManage/list.do";
     }
 }

@@ -19,19 +19,19 @@
 	 * 로그인 처리.
 	 */
 	function fnLoginProc() {
-		if ( !$("#user_id").val() ) {
+		if ( !$("#id").val() ) {
 			alert("사용자 아이디를 입력해주세요.");
-			$("#user_id").focus();
+			$("#id").focus();
 			return;
 		}
-		if ( !$("#user_pw").val() ) {
+		if ( !$("#password").val() ) {
 			alert("사용자 비밀번호를 입력해주세요.");
-			$("#user_pw").focus();
+			$("#password").focus();
 			return;
 		}
 		
 		document.frm.action = "<c:url value='/admin/adminLoginProc.do'/>";
-		document.frm.submit();
+// 		document.frm.submit();
 	}
 	
 	$(document).ready(function() {
@@ -46,7 +46,7 @@
 
 <body style="text-align: center; margin: 0 auto; display: inline; padding-top: 100px;">
 	<div id="content_pop" style="width: 800px;">
-		<form:form name="frm" commandName="vo" method="post">
+		<form:form name="frm" commandName="vo" method="post" onsubmit="fnLoginProc();">
 			 <div id="home" style="text-align: right;">
 				<span class="btn_blue_l" title="홈으로">
 					<a href="<c:url value="/" />">홈으로</a>
@@ -63,16 +63,16 @@
 					</colgroup>
 					<tr>
 						<td class="tbtd_caption">ID</td>
-						<td class="tbtd_content"><form:input path="user_id" /></td>
+						<td class="tbtd_content"><form:input path="id" /></td>
 						<td class="tbtd_content" rowspan="2">
 							<span class="btn_blue_l" title="저장">
-								<a href="#" onClick="fnLoginProc(); return false;">로그인</a>
+								<button type="submit">로그인</button>
 							</span>
 						</td>
 					</tr>
 					<tr>
 						<td class="tbtd_caption">PW</td>
-						<td class="tbtd_content"><form:password path="user_pw" /></td>
+						<td class="tbtd_content"><form:password path="password" /></td>
 					</tr>
 				</table>
 			</div>

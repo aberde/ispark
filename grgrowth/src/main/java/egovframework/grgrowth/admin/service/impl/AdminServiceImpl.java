@@ -15,11 +15,15 @@
  */
 package egovframework.grgrowth.admin.service.impl;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
+import egovframework.grgrowth.admin.service.AdminLoginVO;
 import egovframework.grgrowth.admin.service.AdminService;
+import egovframework.grgrowth.admin.service.PasswordChangeManageVO;
 import egovframework.rte.fdl.idgnr.EgovIdGnrService;
 
 /**
@@ -34,4 +38,47 @@ public class AdminServiceImpl implements AdminService {
 	@Resource(name = "egovIdGnrServiceEmp")
 	private EgovIdGnrService egovIdGnrService;
 	
+	/**
+     * 로그인을 처리하기 위해 데이터처리를 요청한다.
+     * 
+     * @param vo
+     * @return int
+     * @throws Exception
+     */
+    public int loginCheck(AdminLoginVO vo) throws Exception {
+        return adminMapper.loginCheck(vo);
+    }
+    
+	/**
+     * 비밀번호 변경이력 관리 목록조회 요청을 처리하기 위해 데이터처리를 요청한다.
+     * 
+     * @param vo
+     * @return List
+     * @throws Exception
+     */
+    public List<PasswordChangeManageVO> passwordChangeManageList(PasswordChangeManageVO vo) throws Exception {
+        return adminMapper.passwordChangeManageList(vo);
+    }
+    
+    /**
+     * 비밀번호 변경이력 관리 총 레코드 수 조회 요청을 처리하기 위해 데이터처리를 요청한다.
+     * 
+     * @param vo
+     * @return int
+     * @throws Exception
+     */
+    public int passwordChangeManageListTotCnt(PasswordChangeManageVO vo) throws Exception {
+        return adminMapper.passwordChangeManageListTotCnt(vo);
+    }
+    
+    /**
+     * 비밀번호 변경 요청을 처리하기 위해 데이터처리를 요청한다.
+     * 
+     * @param vo
+     * @throws Exception
+     */
+    public void passwordChangeManageUpdate(PasswordChangeManageVO vo) throws Exception {
+        adminMapper.adminManageUpdate(vo);
+        adminMapper.passwordChangeManageInsert(vo);
+    }
 }

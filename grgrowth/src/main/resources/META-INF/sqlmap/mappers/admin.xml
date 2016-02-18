@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="egovframework.grgrowth.admin.service.impl.AdminMapper">
+
+	<!-- 로그인 -->
+	<select id="loginCheck" resultType="int">
+	    <![CDATA[
+	    	SELECT
+	    		COUNT(*) CNT
+	    	FROM TB_ADMIN_MANAGE A
+	    	WHERE
+	    		A.ID = #{ id }
+	    		AND A.PASSWORD = PASSWORD(#{ password })
+		]]>
+	</select>
+	
+	<!-- 비밀번호 변경이력 관리 목록 -->
+	<select id="passwordChangeManageList" resultType="egovframework.grgrowth.admin.service.PasswordChangeManageVO">
+	    <![CDATA[
+	    	SELECT
+	    		A.SEQ
+	    		, A.ID
+	    		, A.PASSWORD
+	    		, DATE_FORMAT(A.REGDATE, "%Y/%m/%d") REGDATE
+	    	FROM TB_PASSWORD_CHANGE_MANAGE A
+			ORDER BY 
+				A.REGDATE DESC
+			LIMIT #{ recordCountPerPage } OFFSET #{ firstIndex }
+		]]>
+	</select>
+
+	<!-- 비밀번호 변경이력 관리 목록 개수 -->
+	<select id="passwordChangeManageListTotCnt" resultType="int">
+	    <![CDATA[
+			SELECT
+				COUNT(*)
+			FROM TB_PASSWORD_CHANGE_MANAGE A
+	    ]]>
+	</select>
+	
+	<!-- 비밀번호 변경 -->
+	<update id="adminManageUpdate">
+		<![CDATA[
+			UPDATE TB_ADMIN_MANAGE A SET
+				A.PASSWORD = PASSWORD(#{ password })
+				, A.UPDDATE = NOW()
+			WHERE
+				A.ID = #{ id }
+	    ]]>
+	</update>
+	
+	<!-- 비밀번호 변경 이력 등록 -->
+	<insert id="passwordChangeManageInsert">
+		<![CDATA[
+			INSERT INTO TB_PASSWORD_CHANGE_MANAGE (
+	    		ID
+	    		, PASSWORD
+	    		, REGDATE
+	    	) (
+	    		SELECT
+	    			A.ID
+		    		, A.PASSWORD
+		    		, NOW() REGDATE
+	    		FROM TB_ADMIN_MANAGE A
+	    		WHERE
+	    			A.ID = #{ id }
+	    	)
+	    ]]>
+	</insert>
+	
+</mapper>

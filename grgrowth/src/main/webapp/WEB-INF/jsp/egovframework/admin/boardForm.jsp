@@ -16,7 +16,6 @@
 <link rel="stylesheet" type="text/css" href="<c:url value="/css/green.css" />">
 <link rel="stylesheet" type="text/css" href="<c:url value="/js/jquery-ui-1.11.4/jquery-ui.css" />">
 <script type="text/javascript" src="<c:url value="/js/jquery-1.11.3.js" />"></script>
-<script type="text/javascript" src="<c:url value="/js/jquery-1.11.3.js" />"></script>
 <script type="text/javascript" src="<c:url value="/js/jquery-ui-1.11.4/jquery-ui.js" />"></script>
 <script type="text/javaScript">
 	_editor_url = "<c:url value='/html/egovframework/com/cmm/utl/htmlarea3.0/'/>";

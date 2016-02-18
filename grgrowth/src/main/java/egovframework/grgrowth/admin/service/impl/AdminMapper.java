@@ -15,6 +15,10 @@
  */
 package egovframework.grgrowth.admin.service.impl;
 
+import java.util.List;
+
+import egovframework.grgrowth.admin.service.AdminLoginVO;
+import egovframework.grgrowth.admin.service.PasswordChangeManageVO;
 import egovframework.rte.psl.dataaccess.mapper.Mapper;
 
 /**
@@ -22,4 +26,47 @@ import egovframework.rte.psl.dataaccess.mapper.Mapper;
  */
 @Mapper("adminMapper")
 public interface AdminMapper {
+    
+    /**
+     * 로그인을 처리하기 위해 데이터처리를 요청한다.
+     * 
+     * @param vo
+     * @return int
+     * @throws Exception
+     */
+    public int loginCheck(AdminLoginVO vo) throws Exception;
+
+    /**
+     * 비밀번호 변경이력 관리 목록조회 요청을 처리하기 위해 데이터처리를 요청한다.
+     * 
+     * @param vo
+     * @return List
+     * @throws Exception
+     */
+    public List<PasswordChangeManageVO> passwordChangeManageList(PasswordChangeManageVO vo) throws Exception;
+    
+    /**
+     * 비밀번호 변경이력 관리 총 레코드 수 조회 요청을 처리하기 위해 데이터처리를 요청한다.
+     * 
+     * @param vo
+     * @return int
+     * @throws Exception
+     */
+    public int passwordChangeManageListTotCnt(PasswordChangeManageVO vo) throws Exception;
+    
+    /**
+     * 비밀번호 변경 요청을 처리하기 위해 데이터처리를 요청한다.
+     * 
+     * @param vo
+     * @throws Exception
+     */
+    public void adminManageUpdate(PasswordChangeManageVO vo) throws Exception;
+    
+    /**
+     * 비밀번호 변경이력 등록 요청을 처리하기 위해 데이터처리를 요청한다.
+     * 
+     * @param vo
+     * @throws Exception
+     */
+    public void passwordChangeManageInsert(PasswordChangeManageVO vo) throws Exception;
 }

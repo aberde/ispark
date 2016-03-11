@@ -153,7 +153,7 @@ public class CommonController {
  
         if ( fSize > 0 ) {
             BufferedInputStream in = new BufferedInputStream(new FileInputStream(uFile));
-            String mimetype = "text/html";
+            String mimetype = "application/octet-stream;charset=UTF-8";
  
             response.setBufferSize(fSize);
             response.setContentType(mimetype);

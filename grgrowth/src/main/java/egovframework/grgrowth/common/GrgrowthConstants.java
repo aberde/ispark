@@ -91,8 +91,9 @@ public class GrgrowthConstants {
         Map<String, String> dataMap = new LinkedHashMap<String, String>();
         dataMap.put("125.128.67.138", "");  // 녹색성장위원회
         dataMap.put("61.34.132.197", "");  // ISPARK
-        dataMap.put("121.156.215.161", "");  // 웹디
+        dataMap.put("220.123.190.114", "");  // 웹디
         dataMap.put("61.101.199.112", "");  // 개발자
+        dataMap.put("192.168.10.247", "");  // 개발자
         ADMIN_ACCESS_IP = Collections.unmodifiableMap(dataMap);
     }
 	// ###########################################################
